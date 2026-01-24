@@ -1,0 +1,25 @@
+// @ts-check
+import { defineConfig, devices } from '@playwright/test';
+
+/**
+ * @see https://playwright.dev/docs/test-configuration
+ */
+//export default defineConfig({
+const config = ({
+  testDir: './tests', //what test run
+  timeout:40*1000, // Applicable for every test
+  expect : {timeout:5000}, // applicable for assertions only
+  reporter : 'html', 
+  
+  
+  use: {
+    launchOptions : {slowMo:1000},
+    browserName:'firefox', //what browser
+    headless: false,
+    //slowMo:1000,
+  
+  },
+
+});
+
+module.exports = config //export default defineConfig({

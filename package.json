@@ -2,12 +2,23 @@
   "name": "playwrightjs",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
-  "scripts": {},
   "keywords": [],
-  "author": "",
+  "homepage": "https://github.com/Rv13s/PLAYWRIGHTJS#readme",
+  "bugs": {
+    "url": "https://github.com/Rv13s/PLAYWRIGHTJS/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rv13s/PLAYWRIGHTJS.git"
+  },
   "license": "ISC",
+  "author": "",
   "type": "commonjs",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {},
   "devDependencies": {
     "@playwright/test": "^1.57.0",
     "@types/node": "^25.0.9"

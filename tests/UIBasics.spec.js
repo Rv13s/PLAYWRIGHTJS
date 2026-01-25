@@ -78,7 +78,7 @@ test('Radio buttons and dropdowns', async({page})=>{
     //handle blinking text class
     await expect(documentLink).toHaveAttribute("class","blinkingText");
 
-    await page.pause()
+    //await page.pause()
 
 })
 
@@ -106,7 +106,7 @@ test.only('Child page handling', async({browser})=>{
     console.log(domainName);
     console.log(rsDoamin)
     console.log('Move to parent page')
-    await page.pause();
+    //await page.pause();
     await username.fill(domainName);
 
     //await expect.soft(username).toHaveText('domainName');

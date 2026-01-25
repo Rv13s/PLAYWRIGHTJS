@@ -27,7 +27,7 @@ test.only('Get landing page product Title', async()=>{
 
 })
 
-test('Get landing page product Title', async({page})=>{
+test('Get landing page All product Title ', async({page})=>{
     const userEmail = page.locator('#userEmail');
     const password = page.locator('#userPassword');
     const loginBtn = page.locator('#login');

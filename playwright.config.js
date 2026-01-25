@@ -15,7 +15,7 @@ const config = ({
   use: {
     launchOptions : {slowMo:1000},
     browserName:'firefox', //what browser
-    headless: false,
+    headless: true,
     //slowMo:1000,
   
   },

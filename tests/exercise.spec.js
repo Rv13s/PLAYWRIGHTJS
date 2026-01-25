@@ -1,6 +1,6 @@
 const {test,expect, chromium} = require("@playwright/test");
 
-test.only('Get landing page product Title', async()=>{
+test('Get landing page product Title', async()=>{
     const browser = await chromium.launch({headless: false});
     const context = await browser.newContext();
     const page = await context.newPage();
@@ -29,7 +29,7 @@ test.only('Get landing page product Title', async()=>{
 
 test('Get landing page All product Title ', async({page})=>{
     const userEmail = page.locator('#userEmail');
-    const password = page.locator('#userPassword');
+    const password = page.locator('#userPassword'); 
     const loginBtn = page.locator('#login');
     const cards = page.locator('.card-body b');
 

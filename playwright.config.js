@@ -7,7 +7,7 @@ import { defineConfig, devices } from '@playwright/test';
 //export default defineConfig({
 const config = ({
   testDir: './tests', //what test run
-  timeout:40*1000, // Applicable for every test
+  timeout:30*1000, // Applicable for every test
   expect : {timeout:5000}, // applicable for assertions only
   reporter : 'html', 
   

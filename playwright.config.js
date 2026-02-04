@@ -1,5 +1,6 @@
 // @ts-check
 import { defineConfig, devices } from '@playwright/test';
+import { trace } from 'node:console';
 
 /**
  * @see https://playwright.dev/docs/test-configuration
@@ -16,6 +17,9 @@ const config = ({
     launchOptions : {slowMo:1000},
     browserName:'firefox', //what browser
     headless: true,
+    screeshot : 'on',
+    trace : 'retain-on-failure'
+    
     //slowMo:1000,
   
   },

@@ -82,7 +82,7 @@ test('Radio buttons and dropdowns', async({page})=>{
 
 })
 
-test.only('Child page handling', async({browser})=>{
+test('Child page handling', async({browser})=>{
     const context = await browser.newContext();
     const page = await context.newPage();
 
@@ -104,7 +104,7 @@ test.only('Child page handling', async({browser})=>{
     const domainName = await arraytext[1].split(" ")[0];
     const rsDoamin =  await arraytext[1].split(" ")[1];
     console.log(domainName);
-    console.log(rsDoamin)
+    console.log(rsDoamin).
     console.log('Move to parent page')
     //await page.pause();
     await username.fill(domainName);

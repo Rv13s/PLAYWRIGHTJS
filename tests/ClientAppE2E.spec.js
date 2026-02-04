@@ -1,7 +1,7 @@
 const {test, expect}= require('@playwright/test');
 const { type } = require('node:os');
 
-test.only('Add to cart test', async({page})=>{
+test('Add to cart test', async({page})=>{
     const emailIDField = page.locator('#userEmail');
     const passwordField = page.locator('input[type="password"]');
     const loginBtn = page.locator('#login');
@@ -45,7 +45,7 @@ test.only('Add to cart test', async({page})=>{
     await page.locator('input[placeholder="Select Country"]').pressSequentially('ind', {delay:150});
 
     const dropdownOptions = page.locator('.ta-results');
-     await dropdownOptions.waitFor();
+    await dropdownOptions.waitFor();
     const optionsCount = await dropdownOptions.count();
     for(let i =0; i<optionsCount;i++){
        const text = await dropdownOptions.locator('button').nth(i).textContent();
@@ -55,5 +55,10 @@ test.only('Add to cart test', async({page})=>{
        }
     }
 
+    
+
     await page.pause();
 })
+
+
+

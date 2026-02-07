@@ -147,7 +147,7 @@ test.only('Add to cart Exercise', async({page})=>{
    // await page.waitForLoadState('networkidle');
     const table = page.locator('table');
     await table.waitFor();
-    const rows = page.locator('tbody tr'); //tbpdy remover the header
+    const rows = page.locator('tbody tr'); //tbody tr remover the header
     
     console.log(await rows.count());
 

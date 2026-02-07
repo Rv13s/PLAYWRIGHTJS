@@ -17,8 +17,8 @@ async checkMyOrders(orderIDNumber){
 
     for ( let i = 0 ; i < await this.rows.count(); i++){
         const row =  this.rows.nth(i);
-        const rowID =  await row.locator('th').textContent();
-        //console.log(rowID)
+        const rowID =  await row.locator('th').first().textContent();
+        console.log(rowID)
         if(orderIDNumber.includes(rowID)){
             await row.locator('button', {hasText: "View"}).click();
             break;

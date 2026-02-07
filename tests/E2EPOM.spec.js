@@ -6,36 +6,39 @@ const { PaymentPage } = require("../PageObjects/PaymentPage");
 const { OrdersPage } = require("../PageObjects/OrdersPage");
 const { OrderConfirmationPage } = require("../PageObjects/OrderConfirmationPage");
 
+//Json -> Json string -> js object (dataset)
+const dataset = JSON.parse( JSON.stringify(require("../utils/E2EPOM.json")));
+
 
 test.only('Add to cart Exercise', async({page})=>{
     const url = "https://rahulshettyacademy.com/client/auth/login";
-    const email = 'testra@gmail.com';
-    const password ="Test@123";
-    const productName = 'iphone 13 pro'
-    const countryName = 'Angola';
-    const orderText = ' Thankyou for the order. ';
+    // const email = 'testra@gmail.com';
+    // const password ="Test@123";
+    // const productName = 'iphone 13 pro'
+    // const countryName = 'Angola';
+    // const orderText = ' Thankyou for the order. ';
     
     //LoginPage class 
     const loginPage = new LoginPage(page);
     await loginPage.goTO(url);
-    await loginPage.ValidLogin(email,password);
+    await loginPage.ValidLogin(dataset.email,dataset.password);
 
     //DashBoard Page
     const dashboard = new DashboardPage(page);
     await dashboard.assertDashboardPageLoaded();
-    await dashboard.searchProductAndAddToCart(productName);
+    await dashboard.searchProductAndAddToCart(dataset.productName);
     
     //Cart Section
     const cartPage =  new CartPage(page);
-    await cartPage.navigateToCartPage(productName);
+    await cartPage.navigateToCartPage(dataset.productName);
 
     //Payment section
     const paymentPage = new PaymentPage(page);
-    await paymentPage.placeOrder(countryName);
+    await paymentPage.placeOrder(dataset.countryName);
 
     //OrdersConfirmation Page
     const orderConfirmationPage = new OrderConfirmationPage(page);
-    await orderConfirmationPage.assertOrderConfrimation(orderText);
+    await orderConfirmationPage.assertOrderConfrimation(dataset.orderText);
     const orderIDNumber =  await orderConfirmationPage.getOrderID();
     console.log("Order iD in test File: " + orderIDNumber);
 

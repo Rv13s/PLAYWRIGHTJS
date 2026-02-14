@@ -18,7 +18,10 @@
   "directories": {
     "test": "tests"
   },
-  "scripts": {},
+  "scripts": {
+    "test" : "npx playwright test",
+    "smoke": "npx playwright test tests/E2EPOM.spec.js --headed"
+  },
   "devDependencies": {
     "@playwright/test": "^1.58.1",
     "@types/node": "^25.0.9"

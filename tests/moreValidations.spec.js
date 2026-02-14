@@ -23,7 +23,6 @@ test("More validations", async({page})=>{
     await page.locator('.mouse-hover .mouse-hover-content a', {hasText: "Reload"}).click();
 
     const framePage = page.locator('#courses-iframe');
-   
     //await framePage.locator("li a[href*='lifetime-access']:visible").highlight();
     // await page.pause();
     await framePage.locator("li a[href*='lifetime-access']:visible").click();
@@ -36,6 +35,7 @@ test("More validations", async({page})=>{
 })
 
 test.skip("Check", async({page})=>{
+
     await page.goto("https://legacy.rahulshettyacademy.com/");
     await page.locator("li a[href*='lifetime-access']:visible").click();
     await page.pause();

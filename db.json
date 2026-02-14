@@ -1,0 +1,13 @@
+{
+  "posts": [
+    {
+      "id": "2570"
+    },
+    {
+      "id": "2be3",
+      "title": "Test",
+      "body": "API testing",
+      "userId": 1
+    }
+  ]
+}

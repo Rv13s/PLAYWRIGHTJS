@@ -1,0 +1,187 @@
+
+1. for  two wheeler while choosing od plan, tp insurer start date only showing for last 3 years, 
+and also end date fetched for 3 years only , it must be calculated for 5 years form start date.
+2. in cc assist - for od ( nomminee details showing) 
+3. when channge the vehcile model ( in policy details - cubic capacity not updated).
+4. after send the payment link , able to move backword.
+5. agent using popup , customer continue popup not showing.
+5. in about vehilce page , previous button should be hide.
+6. for without reg num, flow - customer choose chennai city, but in customer flow i fill MH rto code , RTO mmistach but able to move next screen.
+7. ncb percentage not higher than 35.
+8. additional addons amount not adding.
+
+
+1. rsa error for 3yrs comphrension plan.
+2. idv error  in two wheeler assist.
+3. for company ( nominee details asking)
+4. After send the payment link able to move backword.
+5. previous policy expire date not showing after 90 days from current date.
+6. deselect the PAC but nominee detail asking.
+7. if customer close the agent using model , page will be closed , if customer backword
+ the browser , he can able to continue.
+8. while select and deselnt thhe addon , premium value not changed.
+9. previous policy expire date. accepts any numbers.
+10. toatal premium , paying amount Difference
+
+
+
+policy not download (503 service unavailable issue )
+1. rsa addon issue ( value not change in idv)
+2. while change the date from od to comprehensive ( in policy details page comp, tp not selected ) we can able to move next screen.
+
+
+uat
+1. when customer open the zero dep popup, while showing agent using popup occurs ,customer can able to access background in customer flow.
+2. when select  the od plan, and click zero dep without click conform button , i close the modal , the od plan automaticaly changed to comprehnsive plAN.
+3. DIGI-3 Vehicle Purchase Date Should not be future Date with respect to Policy Start date, DIGI-3 Vehicle Purchase Date Should not be future Date with 
+respect to Policy Start date
+4. for own damange previous policy details must.
+5. alignment issue.
+6. previous policy date only showing last 3 years. 
+7. idv error in some cases.
+8. for own damage previous policy od missinng .
+
+10008/31/22/072805,
+10013/31/24/000851
+
+
+
+
+
+UP65DJ5074 
+8810709494
+10003/31/23/386734	
+
+LEAD ID - 296540  
+VEHCILE NUM - KL42L5076	
+MOB NUM - 8976019346   
+POLICY NUM- 419012/31/23/000039	
+
+LEAD ID 296537 ,
+VEHICLE NUMNBER KL42L5076	
+MOB NUM 7034230390 
+
+
+107014/31/24/000011
+UK01B8967
+
+Registration Number
+UK01B8967
+Make
+HONDA
+Model & Variant
+ACTIVA 125 STD ALLOY ( 125CC ) - PETROL
+Registration Date
+14/04/2018
+City of Registration
+RTO Almora
+Year of Manufacture
+2018
+Registration under
+individual
+Premium Screen
+Ownership Transfer
+NO
+Claim Last Year
+NO
+Current Policy Type
+Comprehensive
+IDV (₹)
+Not Applied
+MIN IDV (₹)
+Not Applied
+MAX IDV (₹)
+Not Applied
+Premium Amount (₹)
+1,545.00
+Premium Gross Amount (₹)
+1,169.00
+Premium GST Amount (₹)
+236.00
+Premium With GST Amount (₹)
+1,545.00
+PA Cover
+Included
+Comp One Year (₹)
+Not Applied
+Comp Two Year (₹)
+Not Applied
+Comp Three Year (₹)
+Not Applied
+NCB Dis Per
+Not Applied
+Current NCB
+50
+Addon Covers Details
+GR36A-PA FOR OWNER DRIVER - TP
+NCB Discount - OD
+Customer Details Screen
+Full Name (as per RC)
+CHANCHAL DURAGAPAL
+Mobile Number
+8056556270
+Email
+CHANCHALDURGAPAL@GMAIL.COM
+Address Line 1
+S/O GIRISH CHANDRA DURGAPAL, TALLA DANYA NANDADEVI WORD ALMORA- ALMORA
+Address Line 2
+Not Applied
+Pincode
+Not Applied
+City
+ALMORA
+State
+UTTARAKHAND
+Nominee Details
+Nominee Name
+GIRISH CHANDRA DURGAPAL
+Nominee RelationShip
+Father
+Nominee Age
+90
+Review with Eng & Chassis Screen
+Fuel Type
+PETROL
+Chassis Number
+U018030
+Engine Number
+2077542
+Insured Declared Value (₹)
+31,776.00
+Hypothecation/Loan
+Select Hypothecation/Loan
+Not Applied
+Bank/ Loan provider
+Not Applied
+Financier Bank
+Not Applied
+Previous Policy Details
+Previous Policy Type
+Comprehensive
+Insurer
+SHRIRAM GENERAL INSURANCE COMPANY LTD
+Policy Number
+107014/31/24/000011
+Previous Policy Expiry Date
+13/04/2024
+Current Policy Details
+Current Policy No
+Not Applied
+Policy Valid From
+Not Applied
+Policy Valid To
+Not Applied
+Proposal No
+Not Applied
+CKYC Details
+Document Type
+C
+Document Number
+Not Applied
+Date Of Birth
+2024-01-03
+CKYC status
+Success
+User FeedBack
+Rating
+Not Applied

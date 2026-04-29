@@ -20,6 +20,7 @@
   },
   "scripts": {
     "test" : "npx playwright test",
+    "regression" : "npx playwright test", 
     "smoke": "npx playwright test tests/E2EPOM.spec.js --headed"
   },
   "devDependencies": {

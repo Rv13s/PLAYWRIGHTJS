@@ -1,0 +1,394 @@
+
+\\192.169.1.55 automation path
+
+
+package Selenium;
+
+import java.util.List;
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.interactions.Actions;
+import org.testng.annotations.Test;
+
+import net.bytebuddy.asm.Advice.Enter;
+
+public class Sgifw {
+
+	@Test
+	public static void main(String[] args) throws InterruptedException {
+		
+		// TODO Auto-generated method stub
+		System.setProperty("webdriver.chrome.driver", "D:\\Selenium\\chromedriver_win32\\\\chromedriver_win32\\chromedriver.exe");
+		WebDriver driver = new ChromeDriver();
+		//driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		driver.manage().window().maximize();
+		
+	
+		
+		
+		driver.get("http://sitfw.shriramgi.com/");
+		
+		
+		// enter fields---------------------------------------------------------------------------------------------------------------------
+	    WebElement carnum = driver.findElement(By.xpath("//*[@id=\'reg_number\']"));
+	    carnum.sendKeys("MH01kk6259");
+	    
+	    Thread.sleep(1000);
+	    
+	    WebElement phono = driver.findElement(By.xpath("//*[@id=\'mobile_number\']"));
+	    phono.sendKeys("7878787888");
+	    
+	    Thread.sleep(1000);
+	    
+	    // insure button---------------------------------------------------------------------------------------------------------------------
+	    
+	    WebElement insurebutton = driver.findElement(By.id("gisendotp"));
+	    insurebutton.sendKeys(Keys.ENTER);
+	    
+	    // Enter OTP by find Element , need to done by find elements--------------------------------------------------------------------------
+	    
+	    Thread.sleep(2000);
+	    
+	    WebElement otp1 = driver.findElement(By.xpath("//*[@id='otp1']"));	  
+	    otp1.sendKeys("1");
+	    WebElement otp2 = driver.findElement(By.xpath("//*[@id='otp2']"));
+	    otp2.sendKeys("1");
+	    WebElement otp3 = driver.findElement(By.xpath("//*[@id='otp3']"));
+	    otp3.sendKeys("1");
+	    WebElement otp4 = driver.findElement(By.xpath("//*[@id='otp4']"));
+	    otp4.sendKeys("1"); 
+	    
+	    //	  enter otp-----------------------------------------------------------------------------------------------------------------------
+	    WebElement otpbutton = driver.findElement(By.id("verifyotpCar"));
+	    otpbutton.click();
+	    
+	    // c_regNumber-------------------------------------------------------------------------------------------------------------------------
+	    Thread.sleep(2500);
+	    
+	    WebElement carregnum = driver.findElement(By.id("c_regNumber"));
+	    
+	    Thread.sleep(1500);
+	    carregnum.clear();
+	    carregnum.sendKeys("MH01kk5252"); 
+	    
+	    // Enter Model Details-----------------------------------------------------------------------------------------------------------------
+	    
+	    Thread.sleep(1000);
+	    
+	    WebElement MakeName = driver.findElement(By.name("c_vd_MakeModel"));
+	    
+	    Thread.sleep(2500);
+	    MakeName.clear(); 
+	    
+	    
+	    MakeName.sendKeys(  "MARUTI SUZUKI");
+	    Thread.sleep(1000);
+	    MakeName.sendKeys(Keys.ARROW_DOWN);	  
+	    WebElement selectcar = driver.findElement(By.xpath(" //*[contains(text(),'MARUTI SUZUKI')]"));
+	    selectcar.click();
+	    
+	    Thread.sleep(2000);
+	    
+	    //Enter Car Model---------------------------------------------------------------------------------------------------------------------
+	    
+	    WebElement ModelName = driver.findElement(By.name("c_vd_Variant"));
+	    
+	   // ModelName.clear();
+	    
+	    
+	    ModelName.sendKeys("ALTO 800 VXI" + Keys.ENTER);
+	    Thread.sleep(1000);
+	    ModelName.sendKeys(Keys.ARROW_DOWN);
+	    WebElement selectmodel = driver.findElement(By.xpath(" //*[contains(text(),'ALTO 800 VXI - 126')]"));
+	    selectmodel.click();
+	    
+	    
+	    //Enter Registration Date---------------------------------------------------------------------------------------------------------------
+	    
+	    WebElement registrationdate = driver.findElement(By.id("c_vd_RegistrationDate"));
+	    
+	   // registrationdate.clear();
+	    Thread.sleep(2000);
+	    registrationdate.sendKeys("22/12/2016" + Keys.ENTER);
+	    registrationdate.sendKeys(Keys.TAB);
+	    
+	    // City of Registration-----------------------------------------------------------------------------------------------------------------
+	    
+	    Thread.sleep(1000);
+	    WebElement city = driver.findElement(By.id("c_vd_CityOfRegistration"));
+	    city.sendKeys(  "MUMBAI");
+	    Thread.sleep(1000);
+	    city.sendKeys(Keys.ARROW_DOWN);
+	    
+	    WebElement selectcity = driver.findElement(By.xpath(" //*[contains(text(),'MUMBAI CENTRAL - MH-01')]"));
+	    selectcity.click();
+	  
+
+	    
+	  //*[@id='c_vd_Comprehensive']-----------------------------------------------------------------------------------------------------------------
+	    
+	    WebElement insuretype = driver.findElement(By.xpath("//*[@id=\"c_ppType\"]/div[1]/div[1]/label"));
+	    insuretype.click();
+	    
+	  
+
+	    // Previous policy expery date-------------------------------------------------------------------------------------------------------------
+	    
+	    WebElement pypolicy = driver.findElement(By.id("c_vd_comp_ppEpiryDate"));
+	    Thread.sleep(2000);
+	    pypolicy.clear();
+	    pypolicy.sendKeys("30/12/2022");
+	    pypolicy.sendKeys(Keys.TAB);
+	    
+	    Thread.sleep(2000);
+	    
+      // customVehicleDetailsFormSubmit--------------------------------------------------------------------------------------------------------------
+	   WebElement customVehicleDetailsFormSubmit = driver.findElement(By.id("customVehicleDetailsFormSubmit"));
+	   customVehicleDetailsFormSubmit.click(); 
+	
+	    
+	   Thread.sleep(6000);
+	   
+	 //*[contains(text(),'Electrical Accessories')]---------------------------------------------------------------------------------------------------
+	   WebElement ElectricalAccesories = driver.findElement(By.xpath("//*[contains(text(),'Electrical Accessories')]"));
+	   ElectricalAccesories.click();
+	   
+	   Thread.sleep(1000);
+	   
+	   //ea_accessoriesName---------------------------------------------------------------------------------------------------------------------------
+	   WebElement ea_accessoriesName = driver.findElement(By.id("ea_accessoriesName"));
+	   ea_accessoriesName.sendKeys("JBL" + Keys.TAB);
+	   
+	   Thread.sleep(1000);
+	   
+	   //ea_accessoriesAmount
+	   WebElement ea_accessoriesAmount = driver.findElement(By.id("ea_accessoriesAmount"));
+	   ea_accessoriesAmount.sendKeys("10000");
+	   
+	   Thread.sleep(1000);
+	   
+	   //electricalAccessoriesFormSubmit-------------------------------------------------------------------------------------------------------------
+	   WebElement electricalAccessoriesFormSubmit = driver.findElement(By.id("electricalAccessoriesFormSubmit"));
+	   electricalAccessoriesFormSubmit.click();
+	   
+	   Thread.sleep(7000);
+	   
+	   //NonElectricalAccessories--------------------------------------------------------------------------------------------------------------------
+	   WebElement NonElectricalAccessories = driver.findElement(By.xpath("//*[contains(text(),'Non-Electrical Accessories')]"));
+	   NonElectricalAccessories.click();
+	    
+	   //non_ea_accessoriesName----------------------------------------------------------------------------------------------------------------------
+	   WebElement non_ea_accessoriesName = driver.findElement(By.id("non_ea_accessoriesName"));
+	   non_ea_accessoriesName.sendKeys("SEAT COVER" + Keys.TAB);
+	   Thread.sleep(1000);
+	   
+	   //non_ea_accessoriesAmount--------------------------------------------------------------------------------------------------------------------
+	   WebElement non_ea_accessoriesAmount = driver.findElement(By.id("non_ea_accessoriesAmount"));
+	   non_ea_accessoriesAmount.sendKeys("10000" + Keys.TAB);
+	   Thread.sleep(1000);
+	   
+	   //non_electricalAccessoriesFormSubmit---------------------------------------------------------------------------------------------------------
+	   WebElement non_electricalAccessoriesFormSubmit = driver.findElement(By.id("non_electricalAccessoriesFormSubmit"));
+	   non_electricalAccessoriesFormSubmit.click();
+	   
+	   
+	   Thread.sleep(5000);
+	   
+	   //premiumDetailsFormSubmit--------------------------------------------------------------------------------------------------------------------
+	   
+	   WebElement premiumDetailsFormSubmit = driver.findElement(By.id("premiumDetailsFormSubmit"));
+	   premiumDetailsFormSubmit.click();  
+	   
+	   Thread.sleep(2000);
+	   
+	  //ow_name--------------------------------------------------------------------------------------------------------------------------------------
+	   WebElement ow_name = driver.findElement(By.id("ow_name"));
+	   ow_name.sendKeys("JHON WICK");
+	   
+	   Thread.sleep(1000);
+	   
+	  //ow_email ------------------------------------------------------------------------------------------------------------------------------------
+	   WebElement ow_email = driver.findElement(By.id("ow_email"));
+	   ow_email.sendKeys("jhonwick@gmail.com");
+	   
+	   Thread.sleep(1000);
+	   
+	  //ow_adLine1-----------------------------------------------------------------------------------------------------------------------------------
+	   WebElement ow_adLine1 = driver.findElement(By.id("ow_adLine1"));
+	   ow_adLine1.sendKeys("porur");
+	   
+	   Thread.sleep(1000);
+	   
+	   //ow_pincode----------------------------------------------------------------------------------------------------------------------------------
+	   WebElement ow_pincode = driver.findElement(By.id("ow_pincode"));
+	   ow_pincode.sendKeys("600101");
+	   
+	   Thread.sleep(2000);
+	   
+	   //ow_nomineeName------------------------------------------------------------------------------------------------------------------------------
+	   
+	   WebElement ow_nomineeName = driver.findElement(By.id("ow_nomineeName"));
+	   ow_nomineeName.sendKeys("Kumar");
+	   
+	   Thread.sleep(1000);
+	   
+	   //ow_nomineeRel-------------------------------------------------------------------------------------------------------------------------------
+	   
+	   WebElement ow_nomineeRel = driver.findElement(By.id("ow_nomineeRel"));
+	   ow_nomineeRel.click();
+	   ow_nomineeRel.sendKeys("BRO");
+	   Thread.sleep(1000);
+	   ow_nomineeRel.sendKeys(Keys.ARROW_DOWN);
+	    
+	   WebElement bro = driver.findElement(By.xpath(" //*[contains(text(),'BROTHER')]"));
+	   bro.click();
+	   
+	   //ow_nomineeAge-------------------------------------------------------------------------------------------------------------------------------
+	   WebElement ow_nomineeAge = driver.findElement(By.id("ow_nomineeAge"));
+	   ow_nomineeAge.sendKeys("22");
+	   
+	   //ownerFormSubmit-----------------------------------------------------------------------------------------------------------------------------
+	   WebElement ownerFormSubmit = driver.findElement(By.id("ownerFormSubmit"));
+	   ownerFormSubmit.click();
+	   
+	   Thread.sleep(4000);
+	   
+	   //new_chassisNumber---------------------------------------------------------------------------------------------------------------------------
+	   WebElement new_chassisNumber = driver.findElement(By.id("new_chassisNumber"));
+	   new_chassisNumber.sendKeys("JHGSV765TYFlF");
+	   
+	   Thread.sleep(1000);
+	   
+	   //new_enginNumber----------------------------------------------------------------------------------------------------------------------------
+	   WebElement new_enginNumber = driver.findElement(By.id("new_enginNumber"));
+	   new_enginNumber.sendKeys("961485HGlV");
+	   
+	   Thread.sleep(1000);
+	   
+	   //pp_Insurer----------------------------------------------------------------------------------------------------------------------------------
+	   WebElement pp_Insurer = driver.findElement(By.id("pp_Insurer"));
+	   pp_Insurer.sendKeys("THE NEW");
+	   Thread.sleep(1000);
+	   pp_Insurer.sendKeys(Keys.ARROW_DOWN);
+	   Thread.sleep(1000);
+	   
+	   //THE NEW INDIA ASSURANCE CO LTD---------------------------------------------------------------------------------------------------------------
+	   WebElement Inscompany = driver.findElement(By.xpath(" //*[contains(text(),'THE NEW INDIA ASSURANCE CO LTD')]"));
+	   Inscompany.click();
+	   Thread.sleep(1000);
+	   
+	  //pp_PolicyNumber ------------------------------------------------------------------------------------------------------------------------------
+	   WebElement pp_PolicyNumber = driver.findElement(By.id("pp_PolicyNumber"));
+	   pp_PolicyNumber.sendKeys("dh47654d5647l");
+	   Thread.sleep(1000);
+	   
+	   //policyInfoFormSubmit-------------------------------------------------------------------------------------------------------------------------
+	   WebElement policyInfoFormSubmit = driver.findElement(By.id("policyInfoFormSubmit"));
+	   policyInfoFormSubmit.click();
+	   
+	   Thread.sleep(9000);
+	   
+	  
+	   
+	   
+	   
+	   
+	   
+	  /* //paynowForm
+	   WebElement terms = driver.findElement(By.xpath("//*[@id=\"paynowForm\"]/div[1]/div[1]/label/button"));
+	   terms.click();
+	   
+	   Thread.sleep(3000);
+	   
+	   //Icon_ionic-md-close
+	   WebElement closeterms = driver.findElement(By.xpath("//*[@id=\"Icon_ionic-md-close\"]"));
+	   closeterms.click(); */
+	   
+	   //Checkbox-paynowForm
+	   WebElement checkBoxElement = driver.findElement(By.id("paynowTerms"));
+	   Actions actions = new Actions(driver);
+	   actions.moveToElement(checkBoxElement).click().build().perform();
+	   
+	 
+       //paynowFormSubmit
+	   
+	   WebElement paynowFormSubmit = driver.findElement(By.id("paynowFormSubmit"));
+	   paynowFormSubmit.click();
+	   
+	  
+	   Thread.sleep(6000);
+	   
+	   // paynowform------------------------------------------------------------------------------------------------------------------------------------
+	   WebElement netbank = driver.findElement(By.id("OPTNBK"));
+	   netbank.click();
+	   
+	   //netBankingBank
+	   WebElement netBankingBank = driver.findElement(By.id("netBankingBank"));
+	   netBankingBank.click();
+	   Thread.sleep(1000);
+	   netBankingBank.sendKeys(Keys.ARROW_DOWN);
+	   netBankingBank.click();
+	 
+	   Thread.sleep(2000);
+	   
+	   
+	   
+	   //SubmitBillShip
+	   WebElement SubmitBillShip = driver.findElement(By.xpath("//*[@id='buttons'][@class='span12']/child::*"));
+	   //Actions actions1 = new Actions(driver);
+	   // actions1.moveToElement(SubmitBillShip).click().build().perform();
+	   SubmitBillShip.click();
+	   
+	   ////*[@type='submit'][@value='Return To the Merchant Site']
+	   
+	   Thread.sleep(2000);
+	   WebElement returntomerchant = driver.findElement(By.xpath("//*[@type='submit'][@value='Return To the Merchant Site']"));
+	   returntomerchant.click();
+	   
+	   
+	   
+	   /*
+	   //Wallet
+	   WebElement Wallet = driver.findElement(By.xpath(" //*[contains(text(),'Wallet')]"));
+	   Wallet.click();
+	   Thread.sleep(1000);
+	   
+	   //Airtel Money
+	   
+	   WebElement airtel = driver.findElement(By.xpath(" //*[contains(text(),'Airtel Money')]"));
+	   airtel.click();
+	   Thread.sleep(1000);
+	   
+	   //redesign-v15-cta
+	   WebElement paybutton = driver.findElement(By.id("redesign-v15-cta"));
+	   paybutton.click();
+	   
+	   //Pay Now
+	   
+	   
+	   Thread.sleep(5000);
+	   //Success
+	   WebElement Success = driver.findElement(By.id("Success"));
+	   Success.click();
+	   Thread.sleep(3000);
+	   
+	   //proceed-button
+	   WebElement proceed = driver.findElement(By.id("proceed-button"));
+	   proceed.click();
+	   Thread.sleep(2000);
+	   
+	   //policyUrl download
+	   WebElement policyUrl = driver.findElement(By.id("policyUrl"));
+	   policyUrl.click();
+	   */
+	   
+	}
+
+}
+
+

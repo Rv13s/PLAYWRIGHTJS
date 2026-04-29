@@ -1,0 +1,215 @@
+r1160	FYI,
+
+173192702
+
+172.23.2.134
+
+350896231283299
+
+===10:52 15-10-2024
+
+https://novacbitbucket.novactech.net/scm/nova/novaphilip-scrum.git
+
+Username: novaphilippines
+password: philippines@321
+
+
+=====
+
+172.23.1.111\SQL2017.ZIVAPHIL
+welcome3#
+
+REX02       ziva@12345
+JAN@2025
+
+
+
+
+
+
+sob 4784
+
+16 th jan
+21st jan 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+sgiccbugsheet url
+https://docs.google.com/spreadsheets/d/1uWg2SN4_kUWC9SP-nMITbAaxP4KoeSo0L5TbtgwWv4w/edit?usp=sharing
+
+
+SIT adminer
+https://digital.novactech.in/adminer/
+
+usermname: sgilead_db_user
+password: SgiLead@123
+database: sgileads
+
+SIT 
+http://sitfw.shriramgi.com/
+
+http://sittw.shriramgi.com/
+
+http://sitcms.shriramgi.com/    	    
+
+UAT 
+https://uatmotortw.shriramgi.com/
+
+https://uatmotorfw.shriramgi.com/
+
+https://uatsgicmstfw.shriramgi.com/
+
+LIVE
+https://motortw.shriramgi.com/
+
+https://motorfw.shriramgi.com/
+
+https://sgicmstfw.shriramgi.com/
+SgiNovac789&*(
+
+URL:-  http://sitcms.shriramgi.com/
+user:-   superadmin@sgi.com
+Password :- Sgi@123!@#
+
+
+dillibai@novactech.in
+
+=================================
+CMS
+        -   https://uatwebcms.shriramgi.com/
+                    admin
+                    123456
+Frontend
+        -   https://uatweb.shriramgi.com/
+
+https://experience.novactech.in/sgi/UAT/pages/home/home.html
+==============================
+
+
+// sql
+SELECT * FROM leads WHERE created_at BETWEEN '2022-10-04 00:00:00' AND '2022-10-04 23:59:59'
+
+
+
+tno01nj9898 proposal - 10013/31/23/P/0082086	
+new vehicle car proposal- 10013/31/23/P/0082099
+mh01vq9898 dontknow reg - 10013/31/23/P/0082101
+
+twowheeler - 10013/31/23/P/0082119	
+
+25-10-2022
+od for twowheeler, when select zero dep - automaticaly it unselected.
+//pa cover fro pasangers and pac is not count for zero dep 
+
+1. http://sittw.shriramgi.com/bike-insurance-apply/?proposal_id=0f18ab48e93f2d318b69280c2cbedb2e
+
+siva pulsar 150 ( 2008) - tn22ba5092
+Ruged honds sp tn23cu6603
+
+--\
+
+Welcome@novac69
+
+make model stage id 1 priority 7 screen id 0
+premimum   stage id 2 priority 6 screen id 0
+
+again back to make model
+make model stage id 1 priority 7 screen id 1
+owner de   stage id 3 priority 5 screen id 3
+owner de   stage id 3 priority 5 screen id 3
+
+cersai form stage id 10 , screen id 4
+
+paymentpag stage id 5 priority 3 screen id 5
+
+razerpay   stage id 6 priority 2 screen id 5
+
+
+amulavan
+dinesh
+rehan
+
+enter the not ckyc verified pan card no , upload pic in ckyc form , again back to owner details
+page edit correct ckyc verified pan card no
+
+nomineee 3e remove pananu
+
+
+====SIT
+1. car flow working fine, newly added NCB field missing.
+2. Two wheeler Flow not working -> after enter the otp , it gets error .
+3. PA flow OTP not receiving.
+
+	PYKRP13612810000022075
+
+<button class="primary-btn" id="ckycSuccessPopup_check">Proceed</button>
+<button class="primary-btn" id="editPanDetails">Edit PAN Details</button>
+editPanDetails
+ckycSuccessPopup_check
+
+//label[@class='custom-checkbox paymentModeCheckboxes']
+//label[@class='custom-checkbox paymentModeCheckboxes'][last()]
+
+amd a8
+16gb ram
+1650
+
+@Hooks run before or after each scenario
+
+
+scenaio hooks
+step hooks
+
+
+216, 227  4 5
+282 test 1
+1260 1, 10, 12 testing 
+
+4166451444387572
+11/28
+803
+
+
+TN01V0001 - car
+421010/71/24/000126
+ 421010/71/24/000128
+421010/71/24/000127
+
+CAR - TN01VC0001 , MOB NUM : 9789306110
+Two Wheeler - TN01VT0001 ,MOB NUM : 9789306110
+PA - NAME: maxsdlee - MOB NUM : 9789306110
+AID : TN01HJ9856  , Mob Num : 7010314203
+
+421010/80/25/000064
+
+10013/31/24/003216
+
+
+select AGTCAT, AGTCODE,* from gnm_t_phil_policy where  POLICYCODE like '%10000/45/24%' order by pkid desc
+
+
+398 hours

@@ -1,0 +1,90 @@
+// 16-12-2022
+
+1. in landing page - name, mob num, agree button , insure now, renew shriram policy fields missing.
+2. in blog description , url not be highlighting.
+3. in cms images not shown , only name will be displaying.
+4. last blog ( next article button ) should be hide.
+5. previous , next (< , > ) symbol not able to click.
+6. share button not working.
+7. newly added blog, shown in down.
+8. old articles shown in top.
+9. back to top btn not working.
+10. blog title sysmbols able to enter , but it not accept.
+11. in blog edit , if we give the invalid title format ( image ,
+description will be lost).
+12. image upload size limit not mention.
+13. test short description ( max characters not mention ).
+14. commercial vehicle ( icon missing )
+15. suppose if we not add any image or short des, des ( field mandatory error messgae
+shown, but other enterd fields will be lost ).
+16. recently added blog not shown in first .
+17. recentlyy added blog not shown in filterd catoegory.
+18. blog tumbnail image size in live url ( 280 x 125 px ) - img size vary
+
+Rendered size:	280 × 125 px
+Rendered aspect ratio:	56∶25
+Intrinsic size:	604 × 270 px
+Intrinsic aspect ratio:	302∶135
+File size:	29.8 kB 
+
+but in uat 
+
+Rendered size:	288 × 176 px
+Rendered aspect ratio:	18∶11
+Intrinsic size:	408 × 249 px
+Intrinsic aspect ratio:	136∶83
+File size:	83.5 kB
+
+blog thumbnail  img size in experience ( 288 × 129 px ).
+
+19. blog image size should be ( 604 × 270 px ).
+20. blog not open by clicking the card, only open when click the readmore button.
+21. registerd blog mail popup not showing.
+22. blog filter catrgory not working .
+
+//19-12-2022
+1. filter category not working - error occurs.
+2. < previous article , > next article button , need to hide in first and last article.
+3. < previous article , > next article button - <,> symbols not working.
+4. newly added blog, shown in down.old articles shown in top.
+5. back to top btn not working.
+6. in blog edit , if we give the invalid title format, other filled details will be 
+lost, need to reenter.
+7. Email Field unable to fill data.
+8. commercial vehicle ( icon missing ).
+
+// Design
+1.  home page - more products error.
+2. displaying site size vary.
+
+//21-12-2022
+1. home page car insurance not focus. fixed 
+2. back to top fixed.
+
+//22.12.2022 
+1. view all button - goes to top of the page.
+2. about all btn - goes to top of the page.
+3. 
+
+28-12-2022
+
+1. Home Page > Contact Us
+The Contact Us popup ( Done button ) not working.
+2. Error message to be aligned to placeholders. not finished - done
+3. Home Page > About Shriram General insurance
+Click on "Read more" user to be redirected to about us page . not expand it redirect to other page. - done
+4. Home Page > Why Shriram General Insurance
+Click on "Read more" user to be redirected to about us page - done
+5. Motor Insurance > Claim Process
+Click on "Register a claim", the user is not getting redirected to "Intimate claim" page - Done
+6. 
+
+
+///
+
+1. student 
+2. depedenent spouse
+3. depedenent child
+
+
+https://www.shriramgi.com/article/top-performing-electric-cars-in-india

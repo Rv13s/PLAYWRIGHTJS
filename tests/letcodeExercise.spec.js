@@ -1,6 +1,6 @@
 import{expect, test } from '@playwright/test'
 
-test('Handle Inputs', async({page})=>{
+test('@Handle Inputs', async({page})=>{
     await page.goto('https://letcode.in/test');
     //Clik Input section edit button
     await page.locator("[href*='edit']").click();
@@ -220,7 +220,7 @@ test("Alert Practice", async ({ page }) => {
 
 });
 
-test.only("Windows Practice", async ({ page }) => {
+test("Windows Practice", async ({ page }) => {
   await page.goto('https://letcode.in/window');
 
   const simpleAlertBtn = page.locator("#home");
@@ -253,3 +253,8 @@ test.only("Windows Practice", async ({ page }) => {
 //   await simpleAlert.accept();
 
 });
+
+test.only('Forms', async({page})=>{
+    await page.goto('https://letcode.in/forms');
+    await page.locator('#firstname').fill('Test')
+})

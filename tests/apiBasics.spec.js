@@ -142,7 +142,7 @@ test('End-to-End Claim Processing Flow', async ({ request }) => {
         ModeofTreatment: "1-Surgical",
         SystemofMedicines: "1-Allopathy",
         SpecialtyofTreatment: "1-General Medicine",
-        TPAClaimStatus: "Approved",   // 🔥 Change status here
+        TPAClaimStatus: "Approved",   //  Change status here
         TotalHospitalisationFinalBillAmount: "50000",
         FinalHospitalisationApprovedAmountAfterAllDeductions: "4000",
         TotalClaimedAmount: "52000",

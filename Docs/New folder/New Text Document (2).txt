@@ -1,0 +1,53 @@
+//without closing the resume pop , we can able to touch the backgournd , and move to next screen , the poppup continulsy showing
+//for third party pac addon missing 
+// fridY 		Two Wheeler	owner details	Web/Mweb	sit, uat, live - for OD, nominee details asking	Functional	Pradeep		Open		High	YES	
+
+09/10/2022
+
+1.UTM source has to be pushed to CC in intial stage. not in cc assist
+2.OD with ZD issue.
+3.Data push to CCMS (premium amount and IDV from API calculator)
+4.Add- ons restriction-  - Zero depreciation should be selected with 3 more addons
+ - Consumable should be selected only when zero depreciation is selected
+ - Engine protector should be selected only when zero depreciation is selected
+5.E-proposal number once created should be renewed for every 5 days for all drop off journey.
+6.check where all CC push happens.
+
+//Customer flow continnue problem in uat  
+in cc assist orange backword not working
+
+//10-11-2022
+1. In customer flow, when agent using popup occurs, if we reload the page ,we can able to continue the flow 
+2. In cc assit flow, when customer try to continue popup occurs, if we reload the page ,we can able to continue the flow 
+3. in cc after send the payment link, we can able to move previous screen.						
+4. while change previous policy type od to comp in aboubt vehicle , it is not change in premium detail screen.	
+5. for own damage ( PAC is selected)
+6. in without reg flow customer customer enter city name and vehicle num mismatching, in cc assit it gets error
+7. two wheeler change the registraion date below 2017 shows 0d
+8. reg year start from 1992
+9. if cutomer choose comphrensive for 2020 registerd vehicle , stop in screen 4, after conbntine in cc assist , 
+we can able to send the payment link, while customer open the link ( the premium amount is NAN ) .
+10. in cc assist select comprehsive ,  change to od , again change to comprehensive , then change the idv vale , 
+both comp and dep is selected.
+
+//second round
+1. for two wheeler past 5 years date - comprehensive shows od fields.
+2. when change the idv value it automaticaly selects od and comp
+3. due date ( 8087 days) 
+4. previous policy details- own damage(tp inusrer name, polic num, start date) filed missing
+5. after send payment link able to backowrd,
+6. payment is not done, but send policy dropdown is enable.
+7. new vehicle idv ( comp and dep selected)
+8. new flow also comp shows od, tp fields.
+9. previos
+
+7450525674
+7335041656
+
+//01-03-2023
+
+1.previous insurer addfh and refresh
+2. payment status not updated.
+
+again check previous insurer type and refresh  
+				

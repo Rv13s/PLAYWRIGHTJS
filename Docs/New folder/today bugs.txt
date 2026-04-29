@@ -1,0 +1,4080 @@
+PYKRP13612810000022075
+02-11-2022
+1.nominee age 18 shows appointee
+2.cc avenive very slow
+3.after payment suceess, also able to sent payment link.
+4.policy download link , only receive in novac mail, not receive in gmail
+5. After payment success - refer to writer is enable.
+6.when quick action dropdown is clicked, we can able to move screens. dropdown is continously showing. //pradeep
+7. in quick action , deselect the payment email,phone,sms and click the send button , payment success popp showing.
+8. for four wheeler , while select cng/lpg minimum and maximum amount missing ( Submit button hide and show).
+9. when change the vehicle modal , idv value . not change in policy details page, only change when referesh the page. //
+10. priorit not changed. //
+11. while change the date in date of registraion , it shows two own damgae policy.
+12. select registration under is hidden , not able to change indiviudal to company.
+13. while choose od policy plan, tp start date od start date is missing. 
+14. while go to screen 3 and backword to screen 2,  continue button not working. //
+15. pre-inspection mandatory screen design missing.
+16. some pincodes not update in cc assist ( ex. 600122)
+
+03-11-2022
+1. cc assist popup modal close button not working, also able to touch background.
+2. pac is not selected, nominee details ask for policy.
+3. in customer flow, when agent update policy popup, we can able to access background.
+4. agent policy popup spelling mistake.
+5. when click the agent policy close button , again it shows in 5scecs 
+6. when refresh screen3, nominee relation not saved.
+7. nominee age 18, shows appointee, 
+8. In customer flow,while agent policy popup shows, mouse click is not working, but we can able to access with keyboard keys.
+9. when we click the agent policy close button in customer flow, it goes to landing screen, if we click the browser backbutton, it goes to customer flow.
+10. nominee age 18 shows appointee
+11.  Tw/Fw in customer flow when agent popup shows , background mouse click is disabled, but keyboard keys access. 
+
+15-11-2022
+1. for  two wheeler while choosing od plan, tp insurer start date only showing for last 3 years, 
+and also end date fetched for 3 years only , it must be calculated for 5 years form start date.
+2. in cc assist - for od ( nomminee details showing) 
+3. when channge the vehcile model ( in policy details - cubic capacity not updated).
+4. after send the payment link , able to move backword.
+5. agent using popup , customer continue popup not showing.
+5. in about vehilce page , previous button should be hide.
+6. for without reg num, flow - customer choose chennai city, but in customer flow i fill MH rto code , RTO mmistach but able to move next screen.
+7. ncb percentage not higher than 35.
+8. additional addons amount not adding.
+
+second round
+1. 
+2. idv error
+3. for company ( nominee details asking)
+4. After send the payment link able to move backword.
+5. previous policy expire date not showing after 90 days from current date.
+6. deselect the PAC but nominee detail asking.
+7. if customer close the agent using model , page will be closed , if customer backword
+ the browser , he can able to continue.
+8. while select and deselnt thhe addon , premium value not changed.
+9. previous policy expire date. accepts any numbers.
+10. toatal premium , paying amount Difference
+
+16-11-2022
+
+policy not download (503 service unavailable issue )__.
+1. rsa addon issue ( value not change in idv)
+2. while change the date from od to comprehensive ( in policy details page comp, tp not selected ) we can able to move next screen.
+
+
+uat
+1. when customer open the zero dep popup, while showing agent using popup occurs ,customer can able to access background in customer flow.
+2. when select  the od plan, and click zero dep without click conform button , i close the modal , the od plan automaticaly changed to comprehnsive plAN.
+3. DIGI-3 Vehicle Purchase Date Should not be future Date with respect to Policy Start date, DIGI-3 Vehicle Purchase Date Should not be future Date with 
+respect to Policy Start date
+4. for own damange previous policy details must.
+5. alignment issue.
+6. previous policy date only showing last 3 years. 
+7. idv error in some cases.
+8. for own damage previous policy od missinng .
+
+// rsa error for 3yrs comp
+
+//thufail
+two wheeler
+1. otp - autofocus
+2. new flow - date of reg only shows current date
+3. chasis , engine num last 5 chars not to be same
+4. previous policy expiry date future 3 months exact ah.
+5.
+
+// hypothetectication 
+
+// core side error
+1. comp 3 year plan - rsa error
+
+//28-11-2022
+both sit and uat
+
+rto code not fetched 
+for od nominee showing
+consumbale popup issue
+exception error not show in crm
+
+// 06-07-2022
+1. while change the idv value  , premiumm amount not changed in with and without registration flow.
+2. od date need to change , start from 2018 .
+3.   
+// 07-12-2022 assist
+1. when chnage the ncb percentage, comp plan hides.
+2. idv value mismatch.
+3. when change the model varient, not change in screen 4.
+4. errror popup not shown.
+5. move screen 4 to 5, loading only.
+5. not able to backword after reach screen 5
+
+// 08-12-2022
+1.  in without registartion flow , mismatch rto code not automaticaly chaning
+
+// 08-12-2022 UAT BUGS
+
+1.due date box error
+2.zero depression is selecting when we give the continue button without selecting yes or no.
+3. Ncb is changing when we refershing the page.
+4. ncb previous yes, comphrensive plans will be hide.
+5. for two wheeler flow, if customer choose a consumbale add on , and then change to comp 3 year plan. 
+zero dep will be hide , but we cant able to move next screen. 
+
+
+
+09-10-2022
+1. lpg/cng model not close
+2. after payment page submit buton enable, if click that it goes to audit page.
+3. select the  od plann details in screen 1 and select dont konw my previous details, 
+and then refresh the page in screen 2, again come to screen 1 , deselect the dont know my previous 
+policy details, both comp and od previous policy fields available .
+
+//12-12-2022 - Uat car
+
+1. without enter the details , we can able to move next screen by click the panel.
+2. total premium modal close button not working.
+3. in sit vehicle number missig in panel .
+4. vehicle num not change in panel , while changing the registration number. uat
+5. // in customer flow - without reg flow ( rto city change , but not show the city change popup in screen 4 ) .
+6. while select the additional addons ( div enalarge ).
+
+// evening flow.
+1. send status url enable in 1st screen.
+
+//13-12-2022
+1. uat screen 4 comntinue btn not working, unable to submit.
+2. live zero dep error.
+3. uat for od plan vehicle only showing previous policy start year 2019. need 2018 th year
+4. sometimes PR-0 Previous insurence Company Name not matched with Master ( new india )
+
+
+1.bike od tp start date 2023
+2.date not chaning.
+3. tp, od start date showing future 90 days
+4 for two wheeler, 
+
+//15-
+1. unable to click i dont know my previous details.
+2. Not a valid response","errorCode":404,"PremiumAmount - in sit and uat.
+
+//20-12-2022
+1. idv valuve shown wrongly.
+2. when change OD DATE to comp date, policy will be desselct.
+3. sit payment slow.
+4. car rto sometime automaticaly deselct.
+5. Thank you for your service. Shriram General Insurance offers great customer service.
+                    Quick and hassle free claim process by SGI made my life easy during the difficult period.
+
+
+//22-12-2022 - Async
+1. when change the year only od add or remove - but the idv value , zero dep not changed. fixed
+2. two wheeler past 5 years vehicle , automaticaly select on od cover.
+3. after select the comp plan. and change date to 2020, it select on od , when clik the zero dep
+it automatyicaly change to comp plan , and also comp 2 and 3 yr plan hides.
+
+//23-12-2022
+1. if we increase or dec the idv value , andd refresh the page. idv value set back to previous.
+2. in without reg flow. if we choose com 2 yr plan , and click zero dep yes, it automatically,
+changed to Od cover.
+
+
+//02-01-1998
+1. 4th page continue button not working
+In Uploading option after selecting the file, the file name is not showing.
+
+In Uploading option after selecting the file, the file name is not showing.
+
+//25-01-2022
+1. otp page back btn not redirect to home page.
+2. back btn not workinng.
+3. cc/kw overlaping.
+4. Provide your proof of address: and Provide your proof of Identity: 
+( Enter Proof of possession of Aadhar Number ) words out the 
+5. eicher repeat two times
+
+own renewal - quick
+pccv geccv - uatweb.
+
+//27-01-2023	
+1. date arrow missing.
+2. car flow all calender able to edit.
+3. two wheeler - aadar date editable
+
+//30-01-2023
+
+Contact Action Not Working
+
+1.In Claims, (In both Header and footer) The contact button is not working.
+2.In carrers, the contact option is not showing at any of the page(inside carrers).========
+3.In Quick Links/Support > intimate claim > if we click on contact option,it is not working.
+4.In Quick Links/Support > Register a Grievance > if we click on contact option,it is not working.
+5.In Quick Links/Support > claim status> if we click on contact option,it is not working.
+6.In Quick Links/Support > Download Policy> if we click on contact option,it is not working 
+7.In Quick Renewal, the contact option is not showing.
+8.In Compulsory Personal Accident (Owner-Driver) Under Motor Insurance, contact option is not working.
+9.In footer, Legal > Regional Legal Office -Contact option is not working.
+10.In footer, Legal > Sitemap- Contact option is not working.
+
+
+Contact Design Invalid
+
+1.In Resources, There is design Problem for 3 option (Except About us option).
+2.In quick Links > Branch Locator> the Select subject text box alignment is invalid.
+3.In quick Links > CashLess Garages > the Select subject text box alignment is invalid.
+4.In footer, Support > blog -Contact option design alignment is invalid.
+5.In footer, Support > Downloads -Contact option design alignment is invalid.
+6.In footer, Others > proposal Form -Contact option design alignment is invalid.
+7.In footer, Legal > Grievance Policy -Contact option design alignment is invalid.
+8.In footer, Legal > Public Disclosure -Contact option design alignment is invalid.
+9.In footer, Legal > Privacy Policy -Contact option design alignment is invalid.
+10.In footer, Legal > Terms of Use -Contact option design alignment is invalid.
+11.In footer, Legal > Policy Wordings -Contact option design alignment is invalid.
+12.In All Blogs areas, Contact option design alignment is invalid.
+
+
+1. terms and condtions not redirect to terms of use.
+2. some products terms and condtions redirect to uatweb . 
+3. contact modal design issue in some pages.
+4. Footer > others > list of withdrawn products, proposal form
+nodal officer, Annexure A- Health Insurance - Back to home error.
+5. footer >Legal > - grievance policy, public disclosure, privacy policy,
+terms of use, policy wordings breadcrums > icon missing.
+6. Headrer > Resource > Download, policy wordings, Blog > icon missing.
+7. Fire insurance > claim process > 1 . claim intimation hyperlink not redirect
+8. site map breadcrums not need.
+9. site map alignment issue.
+
+499 
+6786
+6433
+6414
+
+//31-01-2023
+1. zoop data year 2006 fetch in calender fields . this lead gets error
+2. otp limit exed missing.
+3. FW/TW able to copy paste in all fields . need to restrict
+4. blog share btn not working. it reloads to top of the page.
+5. FOR AADHAR ENTER LAST 4 DIGITS 
+
+
+
+50200064571613
+hdfc0001851
+cc
+
+//01-02-2023
+1. city dropdown not showing.
+2. products > two wheeler > new insure btn not working.
+3. terms and condition not redirect to terms of use
+
+
+HR-09-002-071-001/127 nrega job card
+9140659751131390 ekyc
+
+//03-02-2022
+1. cc/kw not fecthed in zoop.
+
+
+//09-02-2023
+
+1. Shri criti care contact modal ,while scroll not closed in Deskstop/Mobile View . 
+2. All products - readmore btn.
+3. blog contact modal design issue,
+4. blog page after close the contact modal , page will be stuck.
+5. enginering insurance > coverages > faq Partition
+6. Home insurance > compare plan > table container.
+7. Home Insurance > eligibility and required documents design issue.
+8. Blog inside ariticle < , > previous and next article not working. 
+9. Other Products > Contact Btn Not working web/mweb.
+10. Fire Insurance > Claim Process > Faq Div 
+11. Engineering Insurance > Claim Process > Faq Div 
+12. Shri Hospital dialy cash >Coverages > table horiZantal scroll need to remove in desktop .
+13. Shri Vector Care > Coverages > Table Container. mweb
+14. Shri Vector Care > what is coverd > alignment issue.
+15. Home Insuarance > Claim Process > insure now btn Alignment issue.
+16. Home Page > Quick Renewial Btn > Need to close > when click car, bike , personal, home
+and commercial insurance.
+17. persnal Accidantal > open contact modal > scroll the screen , it will not closing - Desktop
+breadcrums floating while scroll the screen.
+18. personal accidantal > breadcrums overlapping.
+19. personal accidantal > comapre plan > contact modal > close while scrolling . Mobile
+
+20. pccv - contact modal > design issue.
+21. pccv - after click the close btn > page will be freezed, header only working.
+22. about us - promotors > image container close.
+23. about us - leadership pillars > readmore > btn ( currently open in two clicks ).
+24. about us - downloads > General Meeting Notices > show more > Download - only showing ( Down ).
+25. About Us - About Shriram group > Image conatainer issue.
+26. Pccv - Types of passanger Carrying Vehicle Insuarance ( Type - T , Insurance - e ) outside 
+of the tab.
+
+
+//cms
+1. website cms design size issue.
+
+aid
+1. name field ( numbers , special chars)
+2. photo,document size limit.
+3. terms and conditions missing.
+
+//13-02
+1. personal accident , home ( name field accpets only 13 chars )
+2. Blog ( how to change wiper blades on a car ) image not loading.
+3. articles > view all > 404 error.
+4. 
+
+49080
+===============================
+
+Tw Journey
+Fw Journey
+GCCV
+PCCV
+Home
+Personal
+CPA
+Quick
+Own renewal TW
+Own renewal FW
+Pay later
+Website pages
+Contact us button
+GTM codes
+Sitemap and XML
+Claim Intimate
+Claim Status
+Claim Do upload
+Home page
+
+================================
+
+1. Date of first registration
+some leads zoop api not hit. 53353, 51696, 50815
+
+
+
+customer change the registration date 54100
+
+=======================================
+17-02-2023 - AID
+1. 
+//20-2-2023
+1. REGISTER GREIVANCE UNble to upload file.
+2. branch locator > two city card space. 
+3. careers > <- , -> forward / backward icon only enable in  screen size 110 % .
+4. Career job share btn go to novac site.
+
+18-02-2022
+1. CAREER File not download in cms.
+2. register greievance > when submit two pop up showing 1. failed and 2. success
+alsoe failed popup tick symbol changed to x .
+
+
+23-02-2023 - 
+1. pcvi - 404 page not found
+2. engineering - 404 not found
+3.  currently car/bike reg num field accepts special charactors . it should be restrict
+
+24-02-2023
+1. Why Choose Shriram Car Insurance? design issue
+2. open car and bike lead in at the same time > trigger otp ( same otp accept two leads ).
+
+ 57962 - 10013/31/23/003443 - First Name Not Updated 
+
+57168	39390	HR07U0883	10013/31/23/003430	9466271016	Parveen Sharma	Four Wheeler	Old vehicle with Registration	FW-SGI-901	ID Proof Type Not Updated	2023-02-22 21:21:28
+57962	49841	HR36AL5823	10013/31/23/003443	8816986030	JASWANT SINGH	Four Wheeler	Old vehicle with Registration	FW-SGI-908	First Name Not Updated	2023-02-24 11:01:41
+56740	48777	RJ27CG3523	10013/31/23/003381	9826609394	KAVITA SHROTRIYA	Four Wheeler	Old vehicle with Registration	FW-SGI-914	Marital Status Not Updated
+57717	49630	TN49BV7066	10013/31/23/003423	7200318957	KABASKAR D	Two Wheeler	Old vehicle with Registration	TW-SGI-914	Marital Status Not Updated	2023-02-22 14:32:13
+57630	49555	PB09AD9956	10013/31/23/003424	9417560606	NAV KIRAN	Two Wheeler	Old vehicle with Registration	TW-SGI-915	Spouse Name Not Updated
+
+
+
+
+
+//06/03/2023 meta tag description
+
+1. motor insurance
+
+featurs and benefits title mismatch
+
+//07-03-2023 
+h1 tag checking , meta title and description checking.
+
+1. gc - uat mismatch
+2 live - travel insurance - policy download , FAQ > h1 missing.
+3. live- shri-hospital-daialy cash > Faq h1 tag missing//
+4. live- shri-vector-care-insurance > key features mistkenly given h1 tag , also it not shown in page.
+5. Shriram Shopkeeper Umbrella Package Insurance Coverages - table two scroller not need
+
+
+old url 
+https://uatwebcms.shriramgi.com/sgiApiLog/60288
+
+
+
+Your Grievance has been submitted and IRDANumber - 03-23-000108, ReferenceNumber - SGI032023394
+
+//08/03/2023 - all tab
+1.Shri Criti Care Insurance > add on > faq > scroll not need
+2. Shri Criti Care Insurance > Claim Process > token showing in faq (fixed)
+3. Shri Hospital Daily Cash Benefit Insurance > Claim Process > token showing in faq
+4. fire inurance > claim process > Faq in same div
+5. Engineering Insurance > key features > arrow only shown in 110
+6. Engineering Insurance > claim process > Faq in same div
+7. Marine Insurance > claim process > Faq in same div
+8. Fidelity Gurantee > coverages 2 empty lines
+9. Fidelity Gurantee > claim process > Faq in same div
+10.Fidelity Gurantee > faq head line
+11. Shopkeeper Umbrella > coverages > not need second scroll
+
+
+//13-03-2022
+1. articles - while click  next , previous btn 404 error occurs. live , uat
+2. app.shriramgi > click blog - 404 error. 
+3. app.shriramgi > click claim over view > 404 error 
+4. app.shriramgi > kyc application > it redirect to https://www.shriramgi.com/download/kyc_application_form.pdf
+
+
+live success
+1. car - 58 , payment pending - 1
+2. bike - 15 
+
+212620622016 
+
+tn22dt4943
+212622611020
+22-04-2000
+
+044 61226422 baskar
+
+Agent = 9876543210
+EUIN = 9876543212
+Accoutant = 9876543211
+
+
+
+23-03-2023 AMC
+1. Initial loading very slow.
+2. 
+
+07-04-2023
+1. motor insurance banner image not loading.
+2. while click resend otp ( something went wrong ) error message displaying.
+3. pp status field.
+4. carers for failed ( verification symbol )
+5. carrers  experience ( alphabets )
+6. carreers while upload docx format file , it gets failed.
+7. carrers > select state and city > click any job opeings > again backward > 
+city dropdown not showing cities
+8. flow - insured state code is mandatory error.
+9.
+
+https://uatweb.shriramgi.com/car-insurance-online/car-insurance-apply?proposal_id=250b3b2a96f96f837b1aa0e51236e3c8
+
+
+
+7358592098
+
+https://www.tatacapital.com/online-tma/loans/tma/application/view-application?leadId=103580463&status=incomplete&productName=PERSONAL%20LOAN&createdDate=2023-04-14%2006:34:14#!
+https://www.tatacapital.com/online-tma/loans/tma/application/view-application?leadId=230423420959&status=incomplete&productName=PERSONAL%20LOAN&createdDate=2023-04-17%2013:10:37#!
+
+Only visible when user click any premium year or change the premium amount . otherwise it shows empty
+
+
+'TW/FW BUGS'!H1:H1000
+
+
+
+Pa cms 19-05-2023
+
+1.Policy Generation date colum missing,
+2. download button missing .
+3. Insured Value above 50000 not working
+
+
+NCB. 31-05-2023 chaitra
+
+1. fill all details in screen 1 , without change the ncb details > click 
+continue button > ncb last year will be show NA and in modal popup ncb percentange not selected.
+
+ncb tw 05-06-2023
+
+NCB details CAR
+
+1.ownership on pannitu then refresh pannitu again ownership ha on panna Pre.claim is remain unselected.
+2.When the ownership is in ON while refreshing the page, percentages are refelecting for One second.
+3.the percentage is unselected, when we click the pre.policy yes and go to the next page go to edit & close it and came back the percentages are remain Unsleceted.
+4.UAT Car Core Response data for NCb id -1.
+5.take a fresh lead and fill the empty field and contine the respone data is -1 then refersh it it become NA automatically.
+6.on/off the previous policy period? continuoesly then kept if off then continue and refresh the page and call back the ncb percentages are automatically unselected.
+7.Open a fresh lead and fill the details ,without changing ncb , continue. it was showing NO- -1 in 2nd stage. if we refersh the page it changed to NO-0%.
+8.Sometimes, I select the 25% in 1st stage and continue to 2nd page it was not updating.
+9. Some value is selected and continue to next screen the selected value is not updated, after refreshing the page it getting updated.
+10.In !st stage the ownership is tranfer is ON,but the percentages are showing.
+11.In 2nd Stage the Pre claim is unselected but the percentage is selected.(scenario dono)
+12.While turn on the pre.policy claim and continue the page, In 2nd second page the shows YES - 0% after refreshing the page it changes to YES - NA.
+13.While turn on the ownership and continue the page, in 2nd page it shows NA - 0%, after refreshing the page it shows NA - NA. 
+14.If I select the third party the WhoLe NCB details should hide in 1st stage.
+
+
+1. ncb design issue - completed
+2. without select ncb percentage , screen 2 ncb tab will be hide 
+3. tw ncb percentage not able to select, - completed
+4. while click close button , page will be loading.
+5. 1. click previous claim yes, 2. click previous name transfer yes
+continue to next screen 
+ncb edit remove name trasfer .
+6. screen 2 Did you make a claim in your previous policy period? click yes, 
+select There is ownership transfer in the previous year Confirm & Continue click sbumit button.
+Again open NCB modal deselect There is ownership transfer in the previous year . 
+Did you make a claim in your previous policy period? will be selected yes. ncb percentage also showing.
+7. if i select the third party insurance in screen 2, screen 1 ncb tabs will be hide.
+
+======================================================================================
+1. While click There is an ownership transfer in previous year? yes , ncb claim bonus percentage 0%
+overlap with the placeholder.
+2. 20% will be changed to 0% , two 0% showing .
+3. click previous year ownership yes and go to next screen , ncb edit button will be unable to click.
+4. insured range
+
+
+two-wheeler-insurance?otperr=Somthing%20went%20wrong
+
+https://uatweb.shriramgi.com/two-wheeler-insurance?otperr=Somthing%20went%20wrong
+======================================================================================
+1. ev vehicel screen 4, cubic capity showing 1cc
+after refresh the page it shows -cc
+2. 
+
+
+car check box ippqgh
+homeCarFormSubmit
+			
+saravananmuthu.t 
+
+car-insurance/payment-status?proposal_id=b954c6b2de0d5b0f23537b3ed480ca9c&pymterr=404
+					
+
+EV vehicals bugs
+
+1.New flow  go with electric flow go to screen 4 then come to vehicals detail page click 
+the chassis&motor edit button, the given chassis number is not showing inside the box.
+
+2.for electric vehicle cubic capacity is showing as 1CC, after refresh the page it changes to -cc
+
+3.go with electric vehcile motor number field is missing.
+
+4.while changing the car varient the chassis number field is aslo want to empty as same as engine number field.
+
+5.start with diesel flow> again changes with petrol flow> after go with ev flow the motor number is showing as engine number in paynow page.
+
+
+
+UATassist .
+choose previous policy as third party and refres the page ncb showing.
+Normal flow > fresh lead > ncb field missing in screen 1 , after go to second screen again come to first screen , ncb field will be showing.
+
+
+
+======================================GCCV New Flow=================================================
+1. Aditional Covers (electric accessories , non-electric accessories , LPG/CNG) amount not clear when click the cancel button and close button.
+2. Payment page policy start date is empty .
+3. Payment page vehicle num and previous policy start date field should be remove.
+4. Payment Page Ncb is showing 0% , it must be 20% .
+5. New flow go to payment page , again back to screen1 , continue button will be hide ,after refreshing the page it appears.
+6. select city as chennai tn 01 , in screen 1 user change city as any other RTO, in screen 2 city not updated it shows vehicle number  as TN01.
+7. Product GCCV > Terms and condition checkbox defaulty selected . it should be select by the user.
+8. Premium amount breakup amount missmatch.
+9. premium breakup gst amount missing.
+10. choosing ev vehicle, DIGI-1 : Vehicle Category Code is MisMatched with Vehicle error occurs
+11. Some vehicles got engine and chasis number length approval limit ( ex. force, balwan 330 diesel ).
+
+ 
+
+   8072469524
+
+ncb
+
+1. In screen 1 NCb is show for third party.
+2. while changing third party to comprehensive ncb field will be hide
+3. 
+====================22-06-2023
+Hi,
+
+sit flow bugs
+
+ Two wheeler flow not working in sit 
+ careers pagenation issue.
+ shriram 50 years popup design alignment issue in mobile view
+ when customer click the terms and condition and again continue the flow, after entering otp , page doesnot move to screen 1, it goes to terms and condition page.
+ sit and uat , when user click the newly added tabs in products , it gets 404 error
+ car-insurance-online > when click the new insure car tab , icon will be hide.
+ car-inusurance-campaign > terms and condition checkbox defaulty selected, it should be select by the user.
+
+===============NOVA================
+1. Geograpiacl Extension ratings missmatch in exel 500 but in quotation 400.
+2. Nil Depreciation added for gccv.
+3. 
+
+--------2 wheeler-----
+1. Loader missing in two wheeler and PA flow.
+2. sms failed error .
+3. Nomineee spell mistake.
+4. pan is verified, but ckyc verified popup display on the cersai form .
+5. for above 5 laks lead , after generate the quote id 1027775, click done
+button , page will be 404 error 
+6. Double payment issue > Already policy generted lead , able to again repayment.
+7. Quote generated lead ,able to edit the flow. if customer edit the lead , new quote id generated.
+8. while click resend otp button some thing went wrong  error occured.
+9. PA > OTP not generated in first time, after 2nd or 3rd time only otp generated.
+10.While entered pincode is not in master, (error state code) error occur while payment.
+11.Occupation> For student> premium amount will be NAN.
+12.Cersai Form > proof identy select pan card > proof of address tab will be hide.
+13. above 5 laks flow > generate quote id > again back to screen 1 uploaded documents will be empty.
+14. fresh Lead >  without select occupation and without uploading payslip
+  > click view premium breakup > click continue button > it goes to next screen .  
+
+
+===========Nova 
+1. old leads not able to open ( invalid column name 'GSTTotal_Amt'.) error popup occurs.
+
+
+============================================UATSIT design +++++++++++++++
+1. Home > contact btn not working. fixed
+2. Home > car&Bike > without reg and new reg button not able to click. fixed
+3. Motor insurance go bottom of the page click any footer list and open contact popup and scroll the
+screen, page will be freezed.
+4. car & bike > without and new flow , city dropdown able to select two cities at the same time. not fix
+5. contact popup in mobile browser, while enter details , respected fields not showing .
+
+1. MOTOR faqs tab not clickable.
+2. car & bike > without and new flow , city dropdown able to select two cities at the same time.
+3. mobile contact button not working.
+
+
+====================================
+1.Premium for idv minium -15% and maximum 20% are less or greater with 2. ( NOT Fixed )
+2.PA cover should opted only for comprehensive (package). ( NOT A BUG)
+3.Electrical accessories > numeric tab(amount field) is hidden. ( NOT Fixed )
+4. For PCCV 3 wheeler, vehicle category should be none. ( NOT FIXED )
+5.All the vehicle field should be refreshed after PCCV Make selected.
+6.In cersai form  the upload field accepting .png formate only. (.PNG formate is not accepting.)
+7.Sometimes glicth occurs in PCCV make and model field.
+8.Content spelling mistakes are shown in premium page.
+9.For organization flow, the flow is stopping in policy detail page.
+10.De-tariff discount should not come in the premium Breakup.
+11.TP policy is always NAN & premium breakup fetched from the last vehicle.
+
+======================================
+1. gccv Proposal has been generated, the generated Proposal ID is 6537063
+basic inforamation rc copy not reflect
+
+
+2. pccv Proposal has been generated, the generated Proposal ID is 653706
+
+3. 6537067
+
+DOCUMENT TYPE: POA PAN NAME MISSING.
+
+4. Sri home care Policy has been generated, the generated Quote ID is 8791
+
+
+
+
+Dear Team,
+ I have taken my marriage leave From 17th July to 20th July as well as 14th July 2023 . Kindly Regularise my attendance ASAP.
+.
+
+Welcomemail@123
+
+
+
+=================24
+1. Mobile sms > send policy status sms content mismatch.
+2. Email > View Premium breakup email ( Insure now in 5 minutues and View premium breakup ) buttons not working.
+3. Send payment link > whatsapp not disabled.
+4. Send payment link > user can select all three checkbos. it should be restrict.
+5. Send payment link > without selecting checkbox, we can able to send the payment link.
+
+
+
+25
+"System opens the Marine Open Policy  Screen with following informations:
+1. Enance SI
+2.Show All Approved Declarations/Certificates.
+3.Show All Pending Declarations/Certificates.
+4. Search by,Search Proposal No  fields are shown for selecting or search the particular record.
+5.Add Declarations/Certificates.
+5.Back button are also shown in dashboard."
+
+PCCV EV BUGS - 27-07-2022
+1. Frontend Error messsage not show.
+2. Loader issue.
+3. Pancard field not validate.
+4. Engine num, chassis num field accept spaces.
+5. Once we go to payment page , and cancel the payment , go back to 4th screen 
+Engine num field will be Empty.
+6. Cersai form Proof of address checkbox is selected but error showing please fill proof of address. 
+
+
+27-07-2023
+
+I have tested the assit email flow.
+PCCV EV vehicle bugs.
+prepare test case for NOVDIGSCR-123.
+
+28-07-2023
+UATASSIT TW
+1. TW >  (send premium Breakup URL) to E-Mail > Insure now in 5 mins and View Premium Break up 
+Buttons not Working.
+2. Also Insure now in 5 mins and View Premium Break up Buttons Alignment Issue.
+
+
+PA
+1. Without select occupation > View premium breakup ( amount ) showing.
+2. All flow > click terms and conditon and back to home page > continue any flow
+after enter otp, page redirect to terms and condition page.
+
+PCCV 31-07-23
+1. Home > commericial flow > OTP error message not showing.
+2. Cersai form father name, mother name field accepts numbers, spl charactors.
+
+01-08-2023
+1. Homescreen > Commerical flow > Error Messages not showing.
+2. Frontend error Exception not showing.
+3. Normal Flow> Leave it 5 mins> After the idle screen, page will be refreshed to
+PCCV Product page> Again Continue the lead. after enter OTP, 404 Error occurs .
+
+
+FW
+1. Continue btn disabled in premium screen.
+
+417016/31/22/000444
+
+
+173192702 customer id
+
+7339414567
+
+
+As checked, same has been done by user, where initially the user has entered the name as "  " and after some time the user changed the same to " ". PFB for logs. 
+
+================
+1. Already insured vehicle num enter in reg num field, download policy popup occurs, click no and edit the reg num and mobile num
+and click inure now button , page not be move to otp screen.
+
+
+https://www.shriramgi.com/goods-carrying-vehicle-insurance/pccv-exception
+
+test_open4@novactech.in
+
+
+1. 421010/76/24/000043/0001 
+
+IN-23272946 new
+
+IN-23272962 chennai sunil marine.
+
+car insurance chennai
+1. Contact popup design issue.
+2. not sure car num / new reg button not working.
+
+
+1.  For Single declration > voyage type need to defaulty set as inland.
+2.  For bulk declaration declaration type field not require, it should changed to declaration date.
+3.  Subject matter insured (commodity description) field is system fetched but it able to edit.
+4.  Intermediray code , intermediray name not fetched.
+5.  File not upload in BD ( if the data mismatch ) , error message not shown.
+6.  BD > survey destianation dropdown list ( Not all lists available in dropdowm ) refernece srs 1.3
+7.  BD > Declaraion period to ( calender click done button )  it decrese to previous month.
+8.  SD ( Declaration date ) User can able to select past dates. It should be restrict.
+9.  Balance SI land ( amount shown in Minus )
+10. For Import and export ( from and to ) accepts same country. 
+11. For all number fields ( able to decrese - values )
+12. currency code ( large text  ) overlap with field .
+13. Currently Exchange rate able to set - Minus value .
+14. without fill  duty si ( varchar error occurs) .
+15. declarations amount ( fetched with - minus value in balance si inland ) 
+16. For BD calculate premium ( Error converting data type varchar to numeric. ) 
+17. In Excel ( Mode Of Transit ) Should be set as Dropdown list.
+18. ( Design Issue) View > Appoved Declarations/Certificates > Download Declaration/certificates Not in Range.
+19. Pending Declaration > click Edit Button > 500 server error occurs.
+20. Subject matter insured (commodity description) > delete and paste the same descriton >
+after finalized the declaration , in Policy PDF it repeat as two times. 
+
+gokul8premkumar@gmail.com
+Prem@9597
+
+1. Pending declarations > Edit > Declaration type will be freezed , unable to edit it.\ Not  a Bug
+2. BD Declaration from ( future date ) , declaration to ( past date ) accepts.
+3. Percentage of validation accepts minus values.
+4. BD > Estimated date of shipment > accepts past date.
+5. After upload the file in BD , and refresh the page ( File name will be disapper in Upload document Placeholder ).
+6. In BD ( 1. upload 1 file and calculate premium , after premium calculated 2. I upload another 
+file ) without click calculate premium , and click  final declaration , Downloaded policy  
+7. BD approved list shown individial records with same policy number.
+
+28-08-23
+1. Enter reg num , mob num and click continue btn, Refresh the page , motorfw screen comes for 1 second.
+
+
+29-08-2023
+1. Pending certificates > edit > Declaration date field is cleard but the declaration time field is not
+cleard.
+2. LR/ RR/ AWB/ RPP & B/L no * Field Length Not set.
+3. For Single certificate > Import >  To country should be India.
+4. For Single certificate > Export > from country should be India.
+5. 
+
+01-09-2023
+1. Cashless Garages > Showing Garages > Scroller Missing.
+2. Cashless Garages > Showing Garages > Select text From mouse > page will be moved.
+3. Select State from dropdown > City field gets design issue.
+
+
+1. Search functionaliy not working.
+2. Download button only enable when user select job type and from To date.
+3. CV Download button only enable when user select job type and from To date. 
+4. IAS Download button only enable when user select job type and from To date.
+
+12:17 05-09-2023
+ALT TAGS
+1. Editable Alt tags only changed in Article screen , other screen footer blogs ALt Name not changed.
+2. Editable Alt tags Not changed in Article screen only showing previous alt tag name.
+
+uatwebsit all flow check
+
+pccv home page error 
+
+421010/76/24/P/0000465
+
+11:41 07-09-2023
+
+1 ALt Name changes not reflect in Home page.
+
+==================================================================================================
+2. GCCV 
+1. If Customer miss any one field and click continue button , page gets move to top.
+2. Cover For Lamp Tyers ( Amount Not Showing )
+3. For Verified Pancard ( customer Name Automatically Fetched, suppose IF the Customer Name Changed or Mismatch with
+Rc , User can't able  ) . NOT a BUg
+4. Go payment page with Not verified pan card, again back to 3rd screen and click continue button
+Pan Will be verified .
+5. while ckyc verify popup , refresh the page , Pan will be automaticaly verified. ownrenewal
+6. For ( Verified Pan ) , again back to 3rd screen click continue Button,
+again it ask pan card verify button. JIra
+==================================================================================================
+
+1. CKYC Popup Register KYC button name Mistakenly enter as Skip Button.
+2. CKYC Verification Success Popup (Name fetched from KYC:maxsdlee) not highlighting.
+
+69381430102268
+idib000m261
+
+==================================================
+3. pccv
+1. CKYC pan not verified.
+2. Flow not move to 4th screen 
+3. Go payment page with verified pan , again back to screen 3 rd change pan and continue flow, cersai form fields
+automaticaly data fetched , it should be cleared.
+4. If customer choose skip and continue cersai form , pan wwill be freezed.
+5. freezed pan num, refresh page , it will be cleared and editable. j
+6. If change the vehicle num  , verified PaN ( name will be cleared ) j 
+7. Change Vehcile num ( click continue page move to next screen without vehcile make and model 
+again back to screen click continue validation works. j
+
+===================================================== MARINE ========================================
+1. LR/ RR/ AWB/ RPP & B/L no ( In SRS it mentioned Free text field ) But it after changed by 
+developer.
+2. Survey Destination - In SRS it Mentioned applicable for Both  MOP and STOP– for all type of
+ declaration (SC, SD and BD).
+3. Some Countries not allow in certificate ( ex. Afganistan ), But System accepts its currency code.
+4. Bulk Error Log ( not in excel format )
+5. If Customer choose sc, sd, bd fill all details and change to any two other declaration 
+type , field data will be cleared , but the validation calculate pemiums not working.
+6. For Bulk Declaration ( without fill any data click calculate premium )  Field validation not working.
+7. Bulk Document upload ( File upload validate not working)
+8. view grid two scroller Design issue.
+9. Enhance si ( 405 servor error ) .
+10. Mobile View Deisgn issues.
+11. Newly added pending declarations > click edit button , it gets expecion.
+12. Proposal Search ( Search Icon Not Working ) , Enter Key only Working.
+13. Approved Declaration and Pending Declaration ( Backword arrow button Issue ).
+
+
+
+
+
+	23275026 marine user 23275724
+======================================================================================================
+12-09-2023
+
+1. City/ahmedabad How to Register a Car Insurance Claim in Ahmedabad?
+Faq step 1. www.shriramgi.com not 
+2. 421010/76/24/000121             
+
+==========================================================
+16:57 13-09-2023
+1. PCCV - change vehcile num direct click continue button , vehcile details will be cleared .
+2. If customer change the vehicle num ( Pan DOB will be set as 00/00/0000 )
+3. D:\TFS\GI20150100\02 GI20150100\05 Testing\001 TESTING BASE DOCUMENTS\MOBILE & WEB PORTAL\WEB PORTAL
+
+=======================================================================================================
+12:31 14-09-2023
+1. Enter Pan num as QWERT12334Y click continue , and select change pan details , Change pan num as
+QWERT1234Q and click Continue Button , Pan Success POPUP will be Displayed.
+2. If I click Proceed button pan field will be freezed , but the lead not go to payment page. it goes to 
+cersai form.
+3. Cersai Form POI field automaticaly fetched with Pan num xxxxxxxxx0597,
+   POA field automaticaly Selected with Voter id ( V965447 )
+4. if customer proceed the verify pan and change the mail id , Freed pan filed will be unfreezed.
+5. Enter correct pan num , edit detail , enter non verify num , retry enter correct num ( Pan will Be Not 
+verfied )
+
+Live car flow check.
+
+=======================================================================================================
+
+1. PCCV Product flow tab click 404 error.
+2. PCCV New flow 2 type of loader comes.
+3. car bike not move 4th screen.
+
+=====================================================================================================
+12:25 19-09-2023
+1. Otperr=sms Failed.
+2. Pre-inspection send url issue.
+3. Two Wheeler gets expection after enter otp.
+4.
+
+s860
+Saravana@123 
+
+\\192.169.1.55\Automation reports\Sample script\Stage 3 (With Excel & Conditions)\SGIC\Master_Agent_Category with Excel and Condition\Master_Agent_Category
+
+
+Sprint 3 
+
+226
+
+Sprint 4
+NOVDIGSCR-316 ( Done )
+NOVDIGSCR-327 ( Done )
+NOVDIGSCR- 281 ( Pradeep)
+NOVDIGSCR- 309 Pradeep
+NOVDIGSCR- 292 cashless gaurages pending.
+NOVDIGSCR- 270 make and model. ( Done ) 
+NOVDIGSCR- 204 PRADEEP
+NOVDIGSCR- 145 Pradeep
+NOVDIGSCR- 281
+NOVDIGSCR- 281
+NOVDIGSCR- 281
+NOVDIGSCR- 281
+NOVDIGSCR- 281
+NOVDIGSCR- 281
+
+
+==============================================================================================
+11:15 27-09-2023
+
+Sprint 6
+
+ev fw landing page 
+1. footer ev car , bike list missing .
+2. How to File a Claim for an Electric Car Insurance? Claim now button not working.
+3. not sure of car num and new flow , dropdown design isssue.
+4. contact popup fields design issue.
+
+TW
+1. Why Should You Buy Electric Bike Insurance from Shriram General Insurance 
+   ( Bottom Insurenow Button) not working.
+2. Coverage Options for Electric Bike Insurance ( Bottom Insurenow Button) not working.
+3. contact popup fields design issue.
+4. footer ev car , bike list missing .
+5. not sure of bike num and new flow , dropdown design isssue.
+
+
+
+Mobile View.
+
+1. Footer list not able to click
+2. Contact Popup design issue.
+3. Not sure of car num and new dropdown city not showing .
+4. Key Features of Shriram Electric Car Insurance in mobile view forward arrow and backword arrow
+buton missing.
+5. Electric Car Insurance: What's Not Covered? In figma it have Slider.
+6. Insurance Coverage Options for Your Electric Car ? In figma it have Slider.
+7. Insurance Coverage Options for Your Electric Car ?Insure Button missing.
+8. Steps to Download Your Electric Car Insurance Policy . Should be
+center Aligned.
+9 Documents Required for Electric Car Insurance Claim at Shriram General Insurance,
+have Slider.
+
+
+
+
+
+Tw
+1. Reg num field , mob num field not able to click 
+2. In Two wheelr Flow ,mistakenly added Insure New car, not sure of car number flow.
+
+
+====================================================================================
+11:53 28-09-2023 GCCV ASSIST 
+
+1. There is an ownership transfer in previous year?* > Click Yes >
+NCB Details Did you make claim in existing policy? will not be hide.
+2. Did you make claim in existing policy? field able to edit , if i add 500%% it will be
+reflect in screen 2.
+3. Did you make claim in existing policy? click yes , go to next page , again back to screen 1
+make any other changes in ncb , it will not update in screen 2. 
+4. Previous insurance select Thridparty , There is an ownership transfer in previous year?* will be hide.
+NCB Details Did you make claim in existing policy? will not hide.
+Also ncb details showing in screen 2. ( Note: NCB not for third party ). 
+5. Again change to Comprehensive cover , There is an ownership transfer in previous year?* will not 
+enable , only it enable when we refresh the page.
+6. If agent change policy third party to comprehensive cover ( NCB Details Not available in screen 2 )
+7. Registration Number Field will be ale to edit, it should be uneditable. 
+8. Cover for lamps addon design issue.
+9.  In insured IDV ( selecting value not showing )
+10. First time while send policy status url for email id , system showing mobile num field is required.
+11. In ( send payment url, status , policy premium breakup ), while select email, mobil num,
+, System selecting speed is very slow . 
+12. about vehicle ( date of registration ) field issue, if i change the DOR ( In header policy 
+expiry date changed ) .
+
+7010334025
+===================================================================================
+17:03 29-09-2023
+1. Claim count must be grater than zero error  message spelling mistake ( No Of COunt)
+21-09- 16.30 
+11:41 03-10-2023
+1. Cover for tyers amount not showing.
+2. In Assit enter pan num as qwert1234y and click proceed, in User end it will be freezed.
+But in assit agent can able to edit the pan num by chaninge the pincode or other fields.
+if agent change the pan num , it will be freezed at user end .
+3. Claim count must be grater than zero error messge spelling mistake.
+4. There is an ownership transfer in previous year?* Click yes in screen 1,
+Did you make claim in existing policy? click yes in screen 2
+again back to screen 1 , No of claims field will be empty.
+5. No of claims enter negative value , and click There is an ownership transfer in previous year?* Click yes in screen 1,
+Move to next screen , ncb edit buttons not able to click,.
+
+ 
+
+rp 3 
+cc av 1
+
+
+ carerr page bugs email error mesggae dropdown nit shownig.
+1. 
+
+-================================-
+16:06 06-10-2023
+1. Contact design issue.
+2. How to renew shriram points should be yellow points.
+3. Footer issue.
+
+1. PA popup ok
+
+Delhi
+1. Benefits of car insurace instead of Types of Car Insurance Add-ons.
+2. List of Cashless Car Garages in Delhi > Click here for the complete list of cashless garages. Missing.
+3. List of Shriram General Insurance Branches in Delhi > in Delhi. Click here for the complete list of Shriram branches in Delhi.
+4. RTOs in Major Cities missing.
+
+Mumbai.
+1. Benefits of Car Insurance Add-ons instead of Types of Car Insurance Add-ons.
+2. How to Register Car Insurance Claim in Mumbai? STEP: 3 . need to remove.
+3. FAQ 4 : Are electric/CNG/LPG vehicles covered by a car insurance policy? instead of IAre electric/CNG/LPG vehicles covered by a car insurance policy?  ,starting I should be remove.
+4. List of Shriram General Insurance Branches in Mumbai , content mismatch ( Shriram General Insurance has several branches in Mumbai. Click here for the complete list of Shriram branches in Mumbai. )
+5. List of Cashless Car Garages in Mumbai
+Shriram General Insurance has a wide network of cashless garages in Mumbai. ( List of Cashless Car Garages in Mumbai
+Shriram General Insurance has a wide network of cashless garages in Mumbai. contenct mismatch Click here for the complete list of cashless garages.
+)
+6. 
+
+xl6
+baleno
+celerio
+wagon r
+ciaz
+dezire
+breeza
+
+welcome@1318
+
+
+1. while change anything in cc avanue intermediate page got stucks,
+2. After payment policy num not showing.
+3. after resfresh the page policy num will be send in 48 hrs
+4. again refresh, policy num will be showing
+5. download policy got 500 server error.
+
+6. razor pay > back cc avenue > again razor pay > policy num will be send in 48 hrs
+7. payment gatway ( Razor pay ) not fetched.
+8. Gateway MID ( cc Avenue ) not fetched. Not Bugs
+9. PA ( 404 ) page not found.
+10. 
+
+==================
+752 Testcase Preparation for Car insurance in indian cities 14 to 18 .
+641 Testcase preparation for city landing. 10-13, 14-15
+641 Tested  city landing. 09-10-2023 10-13, 14-19 1hr left
+565 Test case preparation for maruti model landing. 10-10-2023  10-13, 14-15
+565
+
+==================
+12:11 16-10-2023
+
+1. GCCV/PCCV==================
+
+1. Policy breakup content mismatch.
+2. payment page mweb design issue (chassis 24 ).
+3. amount mismatch ( amount paid , total premium ).
+4. Customer Name not changed.
+4. dl01rt7353 , 
+5. SMS NOT SENDING
+
+======================================================================================================
+
+15:40 17-10-2023
+1. tw motor num , batter num field missing.
+2. 
+
+tn06s0298
+
+        5760
+
+1. GST no need validation on assist.
+======================================================================================================
+
+1. Welcomemail@321
+Welcomemail!123
+
+
+
+Qtest 90 percent in market.
+
+qa
+1. test scenario 100.
+2. bug life cycle
+3. sdlc / stlc life cycle
+4. Agile method ( Scrum/kanban)
+5. Jira
+6
+
+automation java python c##
+selenium testng junit 
+
+
+PCCV / GCCV - if vechile num changed pan num will be empty ,
+ but unable to enter,
+
+
+login cms
+site 
+
+Download category list ok
+
+
+shri criti care thanks for support view premium breakup line alignment issue.
+
+
+SUM INSURED PLAN DETAILS ALIGNMENT ISSUE.
+
+CERSAI FORM SAME AS ID PROOF . CHECK BOX 
+
+api 18 afternoon
+api 19
+
+
+download document 23 24 test
+20 test case
+
+
+
+mobile view
+
+1. Same as id proof alignment issue.
+2. ckyc verify popup close btn alignment issue.
+3. view premimum breakup content , while scroll it overlaps.
+
+PA after payment done click done page gets 404 error.
+pa cersai form without upload photo and click paynow btn
+validation messages not displaying.
+PA - name got freezesd
+PCCV GO TO PAYMENT PAGE, AGAIN COME TO 1 PAGE CHANGE VEHHICLE NUM.
+CHANGE PAN NUM. AND PROCEDD PAN NOT VERIFY BUT IT GOES TO NEXT SCREEN.
+
+
+======================================================================================================
+UAT PATCH
+1. Close button need in cc avenue razor pay popup.
+2. Premium calculate api takes more time.
+3. policy generation api take more time to load, sometime it gets unknown eror.
+4. pccv not verify pan number, go to payment page. again back to screen 1 , change it to coorect pan num
+pan number field will be freezed but , it not verified.
+5. callback very slow.
+6. pccv frst non verify pan to payment page, again enter the correct number
+ in cersai form insured dob date format will be changed , it gets validation message.
+7. Assist pccv / gccv customer trying , agent trying popup not showing.
+
+
+1. Close button need in the CCAvenue, Razorpay popup. OK
+2. PCCV/GCCV , both the agent and the customer using popup is not displaying.
+3. The policy generation API takes longer to load, and sometimes it occurs unknown errors. 
+When the customer retries, it works. live la irukathu
+4. When proceeding to the payment page,  first attempt with a non-verified PAN .
+again back to screen 3 edit the pan with correct number and click proceed buton,
+in the CERSAI form, the insured date of birth format.  
+changes, and a validation message appears.
+5. When attempting to proceed to the payment page for all products, on the first try with a non-verified 
+PAN ,again returns to the owner details page. After editing the PAN 
+with the correct number and clicking the 'proceed' button, the PAN field becomes freezed, and 
+the customer's name does not change. Also the PAN verify popup is missing.
+6. Sometime premium page takes more time to load.
+7. callback very slow in Uat.
+8. Two wheeler with registration flow gets exception after enter the OTP.
+9. Need a scroller in TW & FW for assist premium breakup.
+10. GCCV > Agent, Customer trying to continue alert pop-up is not showing in both assist screen and market renewal screen.
+
+
+1. When viewing the policy breakup in asssistfw, if we selects more addons, the close button for the policy breakup view will be hidden. 
+The only way to close it is by reducing the screen size. 
+NOTE:Scroller is needed for viewing the policy breakup.
+2. CC Avenue is automatically selected as the payment method,The Payment method can choose by customer.
+3. Two wheeler engine num and chassis num merge in paynow screen.
+=====================================================================================================================
+14:59 17-11-2023
+Amristar
+1. Benefits of Car Insurance in Amritsar - Change chennai to amristar.
+2. Is third-party car insurance mandatory in Chennai? - Change chennai to amristar.
+
+
+=====================================================================================================================
+ 10:44 12-12-2023
+
+1. Terms and condition missing.
+2. 
+
+======================================================
+15:54 19-12-2023
+1. After payment done, policy number not showing.
+2. after some times it changes to ur policy will be done in 48 hrs.
+3. Again reresh the page policy number will be showing.
+4. i dont know my reg num flow - payment not working.
+5. 
+====================================================
+10:41 02-01-2024
+LIVE
+1. car insurance >claim process> how to claim tab > land on step 3.
+2. CaR insurance > buy/renew > Get Your Car Insured in 3 Simple Steps > not enable on load .
+3. Two wheeler > covarages > Two Wheeler Insurance Coverages > automaticaly land on not coverd.
+4. Two wheeler > buy/renew > Get Your Bike Insured in 3 Simple Steps > not enable on load.
+5. Two wheeler >claim process> how to claim tab > land on step 3.
+6. GCCV > Coverages > Goods Carrying Vehicle Insurance Coverages >automaticaly land on not coverd.
+7. GCCV  > buy/renew > Get Your GCCV Insured in 3 Simple Steps > not enable on load.
+8. GCCV r >claim process> how to claim tab > land on step 3.
+9.  PA > Eligibity documents > Picture dont need scroller.
+
+
+=======================================================
+10:22 04-01-2024	
+1. PA Flow not working in home page.
+2. PA not go to payment page . cersai form continue btn not working.
+3. Motor aid OTP error. fixed
+4. Car new flow continue with my mobile it gets invalid quote id error. 
+5. Ev car page All images not showing.
+6. Ev Bike page All images not showing.
+
+
+417052/31/20/004982
+
+192.169.1.182\SQL2017
+sa
+
+=======================================================
+16:29 05-01-2024
+1. maruti url slug spelling mistake.
+2. mob num fetched previous nummber.
+3. check box automaticaly selected . 
+4. How to renew shriram insurance points should be in yellow color.
+5. 
+
+
+=======================================================
+10:42 18-01-2024
+1. The mobile number field currently allows the entry of special characters.
+2. The Pan Card Verify was successful with the old name 'Maxdlee'.
+3. The flow is not working; it throws an exception in save e-proposal.
+4. The flow is very slow,each screen takes more time to load.
+=============
+10:58 24-01-2024
+
+421010/71/24/P/0001022  88417   421010/71/24/000102
+421010/71/24/P/0001024  88420   421010/71/24/000106
+421010/71/24/P/0001028  88423   421010/71/24/000107
+
+=========================
+12:22 24-01-2024
+
+1. Moter aid pan card succes maxdelee
+2. zoop api not working.
+3. Something went wrong.
+
+====================================
+11:09 25-01-2024 PAT
+
+1. Claim > kyc application are redirect to  assest.shriramgi.com.
+2. Footer > Claim > kyc application are redirect to  assest.shriramgi.com.
+3. 
+4. 
+5. contact popup send button functionality not working.
+6. Home > Home insurance > click , it shows something went wrong popup, aslo failed popup 
+have ( success icon ). 
+7. EV Bike > Renew Shrirampolicy > Redirect to Uatweb.shriramgi.com/bike-renewal
+8. EV Bike > How to renew Insurance for electric vehicle tab button not working.
+9. EV Bike > Download policy desing over lapping. ( design issue ).
+10. EV Bike > FAQ Font style differ with other pages.
+11. Discover > Employee login redirect to  https://hcms.shriramgi.com/SGIC/WebUIs/Main/Login.aspx
+12. Discover > Nodal Office > Redirect to https://assets.shriramgi.com/webassets/download/nodalofficer.pdf
+13. Discover > List of wisdom > https://assets.shriramgi.com/webassets/download/List_of_Withdrawn_Products.pdf
+14. Discover > Annuexure A > https://assets.shriramgi.com/webassets/download/AnnexureA.pdf
+15. Discover > Nodal Officer for cyclone > https://assets.shriramgi.com/webassets/download/Nodal_Officer_for_Cyclone_Biparjoy.pdf
+16. Discover > Nodal Officer for Skkim Floods > https://assets.shriramgi.com/webassets/blogs/Nodal_Officers_for_Sikkim_Floods_1698122005.pdf.pdf
+===================================================================================================
+14:52 07-02-2024
+
+1. https://www.shriramgi.com/about-us-downloads > Notice - Candidature - Director Appointment 
+> links redirect to assets.
+2. About us > Leadership pillars > read more button icon not loading.
+3. Contact popup not working
+4. PR-0  Proposal Already Cancelled , Please generate New quote and continue ...  
+5. TP start date showing only last 3 year , it should be showing last 5 Years
+6. 
+
+===================================================================================================
+
+11:48  08-02-2024
+
+Car insurance > New car insurance TAB >  Image not loading.
+Car insurance > Used car insurance TAB >  Image not loading.
+Car insurance > Bumper to Bumper car insurance TAB >  Image not loading.
+Car insurance > Own Damage car insurance TAB >  Image not loading.
+Ev Car Insurance > Download POlicy design overlapping.
+Ev car insurance > How to File a Claim for an Electric Car Insurance? > claim button position changed.
+PA FLOW > Provide your proof of address: dropdown have Pan card.
+PA cersai file not upload.
+Download policy Captcha missing. ( FIXED )
+Downloads > Disclosure > asset url.
+cashless garuage > contact popup > design issue.
+About us > Leadership pillars > read more button icon not loading.
+Become an agent > Faield - something went wrong.
+Renew shriram policy redirect to Live.
+Motor aid Payment selection popup Close button not working.
+----------------------------
+
+
+Renew shriram policy > Enter Vehile num, it shows Oops! You currently 
+don't have active vehicle insurance with Shriram General Insurance.
+
+
+
+===============================================================
+14:18 09-02-2024
+car product > new car insuracne tab > Benefits of Shriram New Car Insurance >
+design changed.
+car product > new car insuracne tab > Why You Need to Buy New Car Insurance 
+from Shriram > design changed.
+cashless-garages > Contact popup design issue.
+ev car, ev bike > Contact popup design overlapping.
+Ev Car > Save up to 85%* on your Electric Car Insurance , Font should be in Black Color.
+Ev Car > How to Buy / Renew Button size should be reduce.
+Pa Product > Benefits and features , Calculate premium tab > Faq Down arrow image not loading.
+Motor aid > Overview > Download Policy button Not working. ( LIVE )
+Motor aid > Buy/Renew ( Buy Shri Motor aid ) Tab automaticaly hide ( LIVE ) . 
+=================================================================
+02:58 10-02-2024
+1. Downloads > Disclosure > asset url.
+2. Download policy captcha neeed to remove. ( fiXED ) 
+3. Ev Car > Save up to 85%* on your Electric Car Insurance , Font should be in Black Color.
+4. Ev Car > How to Buy / Renew Button size should be reduce.
+5. Sms only receive 3 times.
+6. Car , Zoop fetched lead NCB Missing . 
+7.  
+8. 
+==================================
+16:33 20-02-2024
+1. State id 3 charactors.
+2. Upload document and click update btn , go back to previous page and clik conmtinue btn
+please upload document error msg showinh. 
+3. pincode not update.
+4.  all not update. only it will update when we refresh the page.
+5. after uploade the docment , click update btn . pls upload document
+errpr messhe occurs.
+6. Address line 1 Not Updated only it will update when we refresh the page.
+
+
+
+=============================================================
+
+1. Upload POA document and click update btn, then refresh the page, 
+upload document will be change false.
+2. POA dropdown should be mandatory field.
+3. CKYC number should be shown only last 6 digits. ( Fixed ) 
+4. Flow very slow.
+5. unable to proceed paymemt page. ( R-7 -  1.Selected Fuel type is mismatched with Zoop PORTAL ) .
+
+6. upload documet remove and click update btn its accepts. 
+
+
+
+
+
+==================================================
+16:01 23-02-2024 Travel Insurance
+
+1. Full Name Field need validation ( Number & Spl Chars ) Should be restrict.
+2. FUll Name field error message missing.
+3. While error message showing Design will be changed Travel insurance Page ( Design issue ) .
+4. Terms and Condition button not redirect to terms and condition page.
+5. Verify Otp ( Error messge missing. ) 
+6. Resend Otp Button Missing.
+7. Trip Start Date System Should be automatically displayed the next date with respect to the 
+current date.
+8. Trip end date should be greater than start date,
+9. *Purpose of travelling Should be mandatory field.
+10. Add Traveler(s) DOB change to Add Traveler DOB.
+11. Traveler DOB should be mandatory.
+12. Shri Travel Plus amount not shown.
+13. Shri Travel Elite amount not shown.
+14. All plan amount should be shown.
+15. Purchase plan should be move to next screen.
+
+==================================================
+1. Please select first country visit - error message should be display 
+below the dropdown.
+2. Trip start date should be start with future date , end with 90 days.
+3. Premium amount not showing.
+4. Trip end date more than 90 days ( error Message Wrongly showing ) 
+5. Purpose of traveling Error message should be shown below of the field.
+6. 
+==
+1. OTP in 18sec need space.
+2. resend otp verify ( error message show as request and response mismatched ),
+3. Please select first country visit error message should be shown below the
+select county dropdown.
+4. worldwide exl usa / canada dropdown value show in include usa.
+5. view details speed select.
+
+421010/52/24/P/0000053
+
+1. prposer same detail yes then refresh freezed field will be unfreezed.
+pan card format validation missing.
+
+2. Additional Details > pan card validation missing.
+3. state name change as TN
+4. 
+
+=========================================================================
+1. shri travel elite , view details click , it automaticaly chage to shri plam.
+2. check box  missing,
+3. Payment close btn not working.
+4. 
+
+
+
+
+shri travel elite click view details  , and click outside the card, it automaticaly change to shri plan.
+Proposer name  , for pan verfied ( PAN against details not fetched )
+payment gateway selection close button not working.
+Agree , Checkbox missing.
+Proposer name 
+In policy 
+
+=======================================================
+1. Abha Number Should be in caps.
+2. Resend Otp.
+
+Traveler detail error message show as traveler 1
+cersai passport validation missing.
+Otp field only number enterable.
+mobile otp field response
+Download policy non motor > travel missing.
+
+
+=======================================================
+10:40 12-03-2024
+Critic Care renewal
+1. upload document empty document showing.
+2. while callback terms and condition checkbox disapper.
+3. Please select address proof type
+  
+
+
+Resend otp button missing.
+Invalid OTP error message missing.
+Shri travel Plus , elite amount missing.
+Address proof Details error message not disapper.
+passsport validation cersai form.
+mobile view otp number only. 
+mobile view la check box select i agree to 
+cersai DOB datepicker click
+start date and end date month end gets trouble.
+CMS not available,
+if screen time it page will be 404 error, it should be land on travel insurance page,
+
+
+===
+281719
+10013/31/24/000047
+9845252280
+goutham.gowda1990@gmail.com
+
+
+
+283789
+105050/31/23/004054	
+9717445744
+rameshgoswami519@gmail.com
+
+To check  the CKYC Image should be placed in the home page as per the design and order.	Verify  the CKYC Image should be placed in the home page as per the design and order.
+To check  the  Video should be placed in home page and Downloads page under Media tab (new tab).	Verify the  Video should be placed in home page and Downloads page under Media tab (new tab).
+To check the Functionality of CKYC Video Playing on SGI website.	Verify the  Functionality of CKYC Video Playing on SGI website.
+
+
+2 EGG 12rs- 12g Ptn.
+50g GNut 10rs- 12.5g ptn 283.5 cl.
+50g Soyachuks - 26g ptn 12.5 cl.
+
+=====================================================================================
+10:35 25-03-2024
+1. Terms and condition check box design issue.
+2. OTP Timer space.
+3. Verify Otp , Resend OTP button design issues,
+4. Resend OTP > Timer in decible
+5. Invalid otp not show as error message. 
+6. OTP field backspace not working.
+7. https://stage.shriramgi.com/shri-group-hospital-cash-insurance-policy
+
+
+1. Contact us button not working.
+2. click home > and scroll the page , page will be scrolled down.
+3. Road Tax by States > view all button not workingg.
+4. Road Tax by States > States btn not working.
+5. mobile view > slick side design issue.
+6. roadtax-state > mobile view > terms and condition checkbox
+alignment issue.
+
+
+
+click home > and scroll the page , page will be scrolled down.
+
+Travel Insurance
+1. country list > repeat two time.
+2. Shri Travel ELITE should be select as default.
+3. Traveler details > travler dob should not be editable,
+4. In save e proposal > Proposer name worngly send traveler name.
+5. mobile responsive dropdowns, extra spaces not fixed
+
+
+Expected cost of treatment, Eligible benefit amount amount dollor symbol missing.
+Diagnosis/treatment details or Name of the ailment for which claimed
+Ambulance charges paid amount
+
+Download policy x download document
+
+mview backbutton issue.
+mview intimate claim home screen design issue
+checkbox issue.
+In figma all fields have bold fonts
+
+
+As a ZOOP user, The Task ID is a unique set of values that you can specify when making API calls. It will be stored at both ends, ensuring consistency and accuracy throughout the reconciliation process. Moreover, you can expect to receive the Task ID in the response as well, providing you with comprehensive visibility.
+
+
+
+
+
+
+
+
+12:30 15-04-2024
+ABHA
+1. aadhar PIc
+2. 
+
+21403165
+
+
+vijay10021994@sbx
+
+Terms and condition link
+CMS Dob not Fetch
+Download ABHA image not Fetched
+Search ABHA ( OTP limit exceed ) Something went wrong.
+
+As a proposal user, i want a web page in our SGI website to check the Pre-Inspection Status. 2126
+
+
+
+
+616
+
+23/
+
+10013/31/25/000045
+==================================================
+1.  Cookie based journey
+2. eKYC related digilocker integration changes - functionality
+3. cyber insurance - till premium page
+4. H2 tags separation for each tab in the car, bike & motor page
+
+===================================================
+1. Key Features of Shriram Motor Insurance Duplicate H2 tags
+2. Benefits of Shriram Car Insurance Duplicate H2 tags
+3. Benefits of Shriram Two-Wheeler Insurance  Duplicate H2 tags
+
+
+
+===================
+assist pa 15:19 12-06-2024\
+
+1. Assist gender dropdown not accept user select value. NOVDIGSMF-450 
+2. Assist Loader Car Png.
+3. The Customer is trying to continue with his policy renewal application. got it button not working.
+4. Assist Above 10 laks premium ( Payslip & upload documet) field Missing,
+5. Policy tenure Plans click functionality should be work on to clicking premium amount.
+6. While verifing the PAN in user journey ( Call center popup ) appers.
+7. Send status url (sms , Email ) Not receving.
+8. Send Payment Link (sms , Email ) Not receving.
+9. Send Payment link should be only enable on Payment Screen.
+10. 
+
+==================================
+ 15:31 19-06-2024 DIGI Loker
+
+1. Aadar field ask 12 digits
+2. Mview after click insure now button ( e-kyc popup ) appears
+3. VERIFY with digilocker ( Pan field also fill to aadhar number)
+4. In digi locker ( i give permission to both pan and aadhar ) but in cersai 
+form both address prof and prof of identity documents fields fetch aadhar number onluy.
+5. In digi locker user select 1 ( aadhar or pan ) only , after click continue btn 
+it redirect to engine num page, again continue digi locker select both documents click continue
+it gets exception. 
+
+========================================
+11:41 24-06-2024
+
+1. In owner details screen with aadhar num , and verify with digi locker
+after verified , in owner details screen first name and last name changed  
+but aadhar num , gender , dob not changed.
+2. pan verification name space missing.
+3. enter pan num as qwert1234y clik ok btn , masdlee popup shows , again edit the pan 
+num as original pan num ( original pan name popup shows ) click continue button 
+name will be fetch as masdlee ( dob set as original pan dob).
+4. Insured idv starting fetched as 1 lakh , if we edit it changed to 3 lakhs.
+5. insured idv should be ( 3l, 5l, 10l,15,20l to 50l)
+6. 4291300
+=====================================
+11:23 25-06-2024
+
+ stage cookie based journey
+1. enter car reg num & mob num > click insure now btn > page 2 secs load on old car flow home
+screen.
+2. while refresh the screen ( Screen 1 appears for 2 sec ).
+3. while close the current tab and again open a new tab CBJ popup not showing.
+ 
+
+700000
+
+8269
+6617
+6602
+6
+6443
+
+
+1652
+======
+27475
+
+
+100000
+
+6300
+5057
+
+
+4801*
+
+14
+199
+6002
+
+
+97641
+
+15230
+
+
+
+salry
+4mn bank 
+original 
+
+421010/76/25/P/0016069
+421010/76/25/P/0016070 - 421010/76/25/008211
+
+System accept declartion date is greater than policy end date.
+Declaration to date greater than policy end date.
+
+
+TC_F_MARINE_01
+
+In enhance si - if master policy have total sum insured only then in client portal 
+(Sum Insured to be Enhanced field) should be automaticaly fetch Sum insured only.
+
+If master policy have separate amount entered in voyage type ( inland , export , import )
+then only user should be select from Sum Insured to be Enhanced  dropdown .
+
+
+
+
+If the master policy has separate amounts entered for voyage types (inland, export, import), then the user should only be able to select from the 'Sum Insured to be Enhanced' dropdown.
+
+12:05 28-06-2024
+===
+1. Stage without registration ( first attempt exception when login in).
+2. Without reg ( show as new vehicle it shoulde be show as NA )
+3. 
+
+
+AS a proposer, I wish to incorporate changes in the client portal
+
+1) Declaration Client Portal so that the declaration date will be with in master start date and end date
+
+2) Multiple Select Dropdown so that the user selection with the name "Sum Insured to be Enhanced" be available
+
+ 
+
+421010/76/25/008211/0001
+
+
+
+saravanamuthu.t@novactech.in
+AA0000000003
+
+click save & submit button same popup appears
+
+aadhar first name and last name fetch in cersai form
+
+--------------------
+
+17:18 04-07-2024
+
+1. marine 
+
+digilocker
+cookie based 
+error message not fixed
+
+
+After save , go back and again click enchance si ( sum insured dropdown will be hide )
+===================================================
+17:15 08-07-2024
+1. enhance si field ( increment , decrement ) btns issue.
+2.
+
+=======================================
+11:47 18-07-2024
+
+1. Most popular media should be center align.
+2. Blog inside table of contents should be underlined.
+3. < previous, Next >
+4. Related Post heading missing. 
+
+================================
+18:48 23-07-2024
+
+1. Need space btw reg num & mob num.
+2. The Terms & Conditions content differs between Figma and Experience.
+3. In mobile view, currently, addons and underline are center-aligned; they should be left-aligned.
+4. In figma insure new car flow as separate button ,and  without reg button is missing. ( clarification)
+
+=========
+14:03 24-07-2024 
+1. tested cookie based journey
+2.
+
+
+1. At home page Email id field accepting the upper case. (Fixed)
+
+2. Premium Page > Select Member drop down should be in Ascending Order. ( fixed)
+
+3. In View Premium Breakup > Select Plan Type , Insured value (IV) , Risks Covered, Add-ons need Notification Pop-Up. (Not fixed)
+
+4. In View Premium Breakup > IDV value showing wrong.(API ISSUE)
+
+5. In view Premium Breakup > If i select the cover the coverage amount should be added to the IDV Value.(API ISSUE)
+
+6. Need validation for Pincode.(If i give two digit of pincode the fields accepting). (Not fixed)
+
+7. Risk detail Page > If i click continue without clicking any of the option the alert message appears design issue.
+
+8. After crossing the risk detail page the screen Loading for long time.(Not moving to paynow or back to Prev page). (Not fixed)
+
+9. Take a fresh lead and go till payment and come back  > Continue button missing inside the view Premium Breakup. ( fixed )
+
+10. In payment Page > Inside the view premium breakup > Premium amount alignment wrong. (Not fixed)
+
+11. Paynow Page > Inside the terms & condition Pop-up Got It button should be in yellow colour and it be center aligned. ( Fixed )
+
+12. Can't able to Success the payment through CC Avenue. (Not fixed)
+
+13. After the Payment the download pdf screen is shows as Your policy willl be sent to your mobile number within 48hrs. (Not fixed)
+
+14. Download PDF > Total Amount in word Alignment issue. (not a bug)
+
+15. Name of the Product should be change in header and footer of the stage environment. ( fixed)
+
+
+
+
+==
+17:20 02-08-2024
+1. Insurerd IDV value showing wrong idv.
+2. All radio button should be select if user click the yes or no  (NOTE: Not a bug, Inscrease the limit for user friedly )
+3. Flow stop at risk details screen.
+4. Go to Risk Details screen , again back to previos screen , again click continue button
+risk details screen will be empty.
+5. Otp Screen Font differ from other products.
+6. PAN succcess masdlee need space.
+7. 
+
+
+
+
+h1 missing, https://www.shriramgi.com/customer-reviews	0	Customer Reviews and Feedback
+
+==========================================================
+1. mob num and reg num , city error message.
+2. T&C apply, alignment issue.
+3. By proceding , alignment issue.
+4. Mob num field should be enter number only.
+5. city dropdown css issue.
+6. footer social media redirect.
+7. Reg num field shoulbe not allowed spl charactors.
+
+
+8965.24+
+
+
+=========================
+
+direct discount 20% na 137.6 roundoff 138 so the premium amount should be
+551 and the gst 99.18 so the total 650
+
+
+1. Font differ to other products.
+2. Name should be start with caps .
+3. all information icons not working.
+4. Premium amount 1 rupee missmatch. Discount amount not roundoff ( Ex : 688 tp - discount 137 = 551, 
+but it display 550 ( for 20% discount 137.6 round off 138 )
+
+The premium amount has a 1 rupee mismatch. The discount amount is not rounded off (e.g., 688 TP - discount 137 = 551,
+but it displays 550. For a 20% discount, 137.6 should be rounded off to 138).
+
+
+5. Amount missmatch in payment screen , first it shows 691 after cancel paymemmt it shows 650
+6. After exception click home page button not working.
+7. annual income field more than need set limit. Annual income field  need set limit. enter more than 20 digits 
+8. Add-ons deselect issue: they only deselect after clicking twice.
+9.Flow not go to payment page. error in save e proposal api : Column 'STATE' does not belong to table ResultTbl
+
+
+==
+love our media ? missing
+ks preethi name should be bold
+ks preethi under manger commication should be change to manager communications
+whatsapp, linkedin, insta youtube symbol missing
+card size
+in media article related post heading missing.
+
+
+Exaarra 90
+
+
+
+
+Hdfc suoer income
+65000
+
+1. 5400
+2. 10% cashback
+3. Family floater
+4.
+
+===
+550%18 is 99 but it showing 100 
+also stamp duty is adding in premium , it should not be add.
+
+Hi Sunil,
+    
+    Premium amount miss-match
+1. 550%18 is 99 but it showing 100 . Extra 1 rupee added in gst amount.
+2. Only round off the number when it is greater than or equal to 0.5.
+2. Stamp duty is being added to the premium, but it should not be added.
+
+
+SHRI CYBER SURAKSHA INSURANCE POLICY
+
+cyber live check 10:38 08-08-2024
+========
+
+1. Risk details Yes no not changing
+
+
+rtx thufail 40
+motor aid 
+cyber shiva 60
+cooki ijas 40
+paytm mohan 60
+
+======================
+live test - zero dep and consum & engine protector
+in assit journey.
+
+
+when user clicks the mail 
+enter email should be have * symbol
+enter mob num should be have * symbol
+
+==============================
+
+Hdfc - 7385
+ax f - 443
+kotack - 915
+ 
+8955680955
+
+
+
+
+ 	Stage ZD percentage.
+
+23437097
+1. 
+
+
+In premium detail screen od tariifc discoun calculate as 90 %
+Proposal api gets error 
+====================================================
+10:43 20-08-2024
+
+1. check ev car charger number ( error in save proposal ) mailed to bharath
+2. check digilocker flow 
+
+
+Name middle name missing in cersai.
+Policy will be scheduled as owner details name not cersai ckyc name.
+Renewal flow continue button not working.
+
+===
+social scheme dropdown issue
+
+
+=
+14:25 21-08-2024
+1. select document dropdown not showing values
+gender dropdowm 
+2. Select aadhar and fill details and change it to pan aadar 
+field unable to delete.
+3. middle name missing.
+4. 
+
+
+=15:33 22-08-2024
+
+1. Dropdown issue.
+2. full name should be display in owner details screen.
+3. Don't change the owner details name.
+4. In assist flow aadhar number entered as ********3434
+5. after digi locker data fetched, in owner details screen 
+aadhar field added 8 masked *s 
+if the agent change in assist it display full numbers
+6. assist dropdown not working.
+7. 
+
+
+-= 14:17 26-08-2024
+1. checking social scheme. 10.30 to 12.30 
+1. Dropdown value show only click second times.
+2. error occurs while call get premium details api
+
+
+===========11:55 27-08-2024
+Cyber assist 
+11 to 13
+1. premium breakup btn not working.
+2. All fields accepts space as inputs. both in user and assist journey.
+3. User using or agent using popup missing
+4. Risk Details screen - select device dropdown not showing list.
+
+
+=============
+sms not receive
+after refresh and click submit button , popup shows
+
+==================================================
+11:42 02-09-2024
+
+1. view breakup popup should be as per cas assit screen.
+2. Customer try/Agent try popup missing.
+3. Assit all field accepts numbers & special chars need validation.
+4. Occupation poup design issue.
+5. flow not move to screen 4.
+
+
+2. check assist pre-inspection.
+
+
+
+======10:43 03-09-2024
+1. occupation popup design issue in family floater.
+2. Summary screen entered values not showm.
+3. Ckyc pan unverified scenario flow working in front end , but not work in assist.	
+4. Risk details screen error message should be under the checkbox.
+5. Do you have any Cyber Insurance presently? 
+First click yes and click continue btn, again click no Insurance Company Name,
+Policy Number, Policy Tenure field not close. ( front end / asssist ) .
+6.Risk details screen click yes to all radio btns, without fill any data , and click
+continue btn error message occurs , then user choose no to all radio btns, oppened fields not 
+disappear.
+7. risk details without select any raido btns
+click yes > ERROR messgae occurs > then click yes
+fields not open.
+8. pincode not fetch.
+9. duplicate leads creating .
+
+
+
+Hi Mahisha,
+
+ I attached my friend resume for the role hr fresher/intern. She is a recent graduate 
+MBA Hr at Anna university/SMIT. 
+
+Hi Mahisha,
+
+    I hope you’re doing well.
+
+I’d like to recommend Reshma Parveen for the role [Hr Fresher/Intern] at Novac Technology. She is a recent graduate with MBA Hr at Anna University/Smit and is eager to start her career.
+
+Please find Reshma’s CV attached for your review. Feel free to contact her at  if you need any more information.
+
+Thank you for your time!
+
+reshupari2204@gmail.com
+9176486766
+
+
+
+
+421010/49/25/P/0000207
+
+
+aadhar num not fetch.
+address 2 not fetch
+
+//employee code wrongly fetching.
+Risk Details not fetch
+
+421010/49/25/P/0000201
+
+
+421010/49/25/P/0000209
+
+
+
+28954312 , 28959109
+
+421010/49/25/000059
+
+
+
+
+
+421010/49/25/P/0000201
+
+
+421010/49/25/P/0000208
+421010/49/25/000061
+
+421010/49/25/P/0000211
+
+421010/49/25/000062
+
+421010/49/25/P/0000212 ipa individual fresh
+421010/49/25/P/0000132 renewal of others 421010/49/25/000063
+
+
+
+
+421010/49/25/P/0000804
+
+
+
+421010/49/25/P/0000804, 421010/49/25/000214
+
+IN-23428900 premkumar
+
+421010/49/25/P/0000858
+
+
+421010/49/25/P/0000213
+
+=====================\
+421010/49/25/P/0000861
+
+
+UAT renewal pol
+421010/49/25/P/0000862 
+421010/49/25/000216
+
+
+
+
+
+
+
+
+
+
+23441556
+
+
+am/pm
+
+
+-17:27 11-09-2024
+
+DIGILOCKER
+
+1. choose aadhar as document type in owner details screen > gender dropdown issue value not update.
+2. In Cersai ( Name Fetch first name and last name ) middle name missing.
+3. After verify with digi locker , user entered name (in owner details screen )
+should not be change as per aadhar. Digi locker name should be fetch in aadhar 
+name field only.
+4. Policy download very slow.
+5. In cersai aadhar number should be 12 digits. ( Note: 4 digits is only in owner details screen )
+
+
+6. Enter 1234 in aadhar number, click continue btn ( aadhar verified siva ram popup shows )
+i click edit btn and change the aadhar num, and continue the flow, in cersai form
+mother fethed as per siva ram aadhar. i click continue btn ( string or binary data error occurs ).
+again i login the lead mother name will be empty.
+
+
+
+6. Enter 1234 in the Aadhaar number field and click the "Continue" button. 
+A popup will appear showing "Aadhaar verified Siva Ram." Click the "Edit" button, 
+change the Aadhaar number, and continue the flow in the CERSAI form. 
+The mother’s details are fetched as Parvathi according to Siva Ram’s Aadhaar. 
+When you click the "Continue" button, a "String or binary data error" occurs. 
+When you log in again, the lead's mother’s name will be empty.
+ Then, enter the name and click the "Continue" button. 
+Then only the flow will proceed to the payment page.
+
+
+Renewal Flow.
+
+1. First name / second name field missing in cersai.
+2. Choose marital status yes , but the spouse field will be freezed.
+3. After Digi locker datas fecthed, currently user can able to reupload the documents,
+It should be restrict.
+4. Choose document type as  aadhar, Aadhar Fname/Sname , Gender dropdown fields are currently not 
+mandatory.
+5. Choose the document type as Aadhaar. The "DOB" field should be changed to "DOB as per Aadhaar" 
+or the field name could be static as "DOB as per document".
+
+
+15:57 13-09-2024
+
+
+10000/76/25/P/0000097
+
+421010/76/25/P/0016390
+
+
+
+RFQ/10000/45/24/000919  10000/45/24/P/0000002  10000/45/24/000002
+
+
+
+coverage approver
+Ronald - shriram@1
+
+
+1. Contractor Details missing in approver screen .
+2. Download invoice & print schedule not working.
+3. 
+
+
+===========================
+12:18 16-09-2024
+
+EAR - RFQ/10000/45/24/000922
+
+
+1. RFQ - Car Screen showing instead of RFQ- EAR .
+2. Proposal type currently fresh only available.
+3. IN-20233418 - Gopal Tech
+4. smi / cover details
+ Cover Deductibles - tp not showing.
+5. RFQ creation take more time .
+6. while click rfq close btn (error identified ).
+7. Click edit btn takes more time to open the lead.
+8. Every submit btn takes more time.
+9.To convert the proposal, the system prompts 
+for Marketing Officer details, but this field is not mandatory.	
+10. Add SI Y/N dropdown missing. no bug
+11. Section 2 of SMI is selected, but the user has not chosen any items 
+for it and clicked the 'Continue' button. The system accepts this, 
+but selecting at least one SMI for Section 2 is mandatory.
+
+
+ RFQ/10000/45/24/000924
+1. To convert the proposal, the system prompts 
+for Marketing Officer details, but this field is not mandatory.	
+2. Section 2 of SMI is selected, but the user has not chosen any items 
+for it and clicked the 'Continue' button. The system accepts this, 
+but selecting at least one SMI for Section 2 is mandatory.
+
+11672
+
+11:37 17-09-2024  - ( Policy Wordings )
+1. 
+
+
+maintanance to date accepts greater than policy end date
+
+
+1. Location description : JJK
+2. Address1 : porur
+3. Address2 : Bhai Kada
+4. Barangay : Langkaan I
+5. Municipality/City : City Of DasmariNas
+6. Province : Cavite
+7. Region : region IV-A (Calabarzon)
+8. Zipcode : 600101
+9. Cresta code : 101
+10. Cresta Zone : 6
+11. Earthquake Zone : 3
+12. Typhoon Zone : 4
+13. Flood Zone :
+14. Zone : A
+15. Type :
+16. Construction details :
+17. Escalation% :
+18. Risk inspection : No
+19. Risk Inspection date :
+20. Recommendation :
+21. Boundaries Front :
+22. Boundaries left :
+23. Boundaries Right :
+24. Boundaries Rear :
+
+
+Direct with co insurance
+1. without choose co - company policy will be generate.
+2. Download invoice not working. ( 500 server error )
+3. Print schedule not working.
+4, cover detectable Tp cover not showing.
+
+
+421010/56/24/000134
+
+
+RFQ/10000/45/24/000929
+
+
+
+RFQ/10000/45/24/000928
+
+10000/45/24/P/0000006
+
+
+Q/10000/45/24/000929
+
+
+
+5. smi description should be mandatory.
+6. click section-II yes
+add property damage, bodily injured and deselecet the third party checkbox.
+The added values not remove.
+
+
+section 1
+1. 10% of contract value eartquake tycoon
+2. Php 200,000.00
+3. 10% of the Contract Value for loss or damage arising out of any causes.
+4. Php 200,000.00 for each and every loss Fixed Dudectible for loss or damage arising out of any causes.
+
+section 2
+1. 10% of the loss, minimum of Php 2,500.00 for each and every loss for TPL related losses.
+2. Php 200,000.00 for each and every loss Fixed Dudectible for TPL related losses.
+
+
+
+
+
+11:40 19-09-2024
+1. Contract details add duplicate list.
+2. Item Insured Description should be mandatory
+3. If we enter high values error occur in calculate premium.
+4. print schedule / douwnload invoice 500 server error.
+5. Section 1 not selected but add the rate percentage and click submit btn,
+system prompts calculate premium , instead of Enter Atleast One SMI record.
+6. Section 2 selected but not add any smi record, click save btn system accpets it.
+7. 
+
+
+Please select any one cover in SMI section 1
+
+
+
+REcheck - 6.20 to 7
+
+11:11 20-09-2024
+10000/45/24/P/0000010
+
+1. Unable to upload VAT Exempt certificate. Document Type dropdown not showing list.
+2. Select Tp and TPL related Policy deductibles , again deselect the Tp section 2, TPL policy deductibles not removed.
+
+
+
+
+
+
+9943424619 mani gold chit
+
+
+
+19:06 23-09-2024
+1. download quotes ( 500 server error ). 
+ Assured name , policy end date removed.
+ marketing officer removed, search icon disapper, only appears if we change direct to agent ,
+again change to direct.
+
+
+
+256
+
+
+
+
+
+
+
+
+10000/51/24/000002
+
+12:11 24-09-2024
+
+1. While loading, if I click the "Continue" button 2, 3, or more times, 
+it creates 2, 3, or more duplicate entries in the contract details list.(ex. RFQ/10000/45/24/000938)
+2. RFQ/10000/45/24/000939,  
+
+Q/10000/45/24/000939 , 10000/45/24/P/0000013
+download quote, download invoice
+ 500 server error.
+if this error occurs , assured name , marketing officer name will be removed.
+Assured name can be enterable , but marketing officer name search icon will be hide.
+
+
+251500000
+
+10000/45/24/P/0000015
+
+Ana123456* uat appprovar
+
+
+Cover rate Minium 0.1 send to approval.
+
+
+POlicy shedule only download by policy number, 
+RFQ, Quoter ( invalid number error occurs ).
+
+
+Issued at field should be accept text only.
+Mortgage > Amount Mortgaged Up To field should be accept numbers only.
+Contract details, Mobile number field should be accepts number only.
+
+
+RFQ/10000/45/24/001037
+
+
+10000/45/24/P/0000004 inward 10000/45/24/P/0000004 10000/45/24/000003
+
+===
+15:20 25-09-2024
+
+1. RFQ/10000/45/24/001039 , Q/10000/45/24/001039 , 10000/45/24/P/0000005 , 10000/45/24/000004
+
+
+16:17 25-09-2024 digi locker
+
+
+1. All popup design issue
+2. Go flow with pan num , and change to aadhar ( aadhar num filed unable to edit )
+3. Renewal after verify with digi locker , system again proceed to verfication process. Not move 
+to next screen.
+4. renewal digi locked cersai should not be editable.
+5. Gender dropdown issue.
+
+
+
+please find the attachment, testing status completed.
+
+9596329565
+
+
+
+s0024
+
+11:14 26-09-2024
+
+1. CONTRACTOR'S ALL RISKS INSURANCE POLICY EAR-10000/45/24/000003 in the policy
+should be Change To Erection All Risks Insurance.
+2. In policy schedule Data Privacy clause missing.
+3. For Policy No. 10000/45/24/000004, only the statement of the accountant is printed, 
+while the other pages are blank.
+4. Customer query > risk details > cannot find table 13 error occurs.
+
+
+15:43 26-09-2024
+
+TN09BZ3371
+
+10000/24/R/000836
+
+10000/45/24/000006
+
+10000/45/24/000006-C01
+10000/24/P/0075
+
+12:13 27-09-2024 421010/78/25/P/0000042
+
+
+
+
+IN-23430994 Prem and my number
+
+
+
+421010/78/25/P/0000044 421010/78/25/000035
+
+
+
+15:21 30-09-2024
+Noted:  Download 
+
+
+10:22 01-10-2024
+25 k + 20 K 
+
+
+PolicyStatusReport_20241001190132 generating.
+
+11:48 04-10-2024 testing nf endorsment
+
+end nf 548
+approval sc 111
+confirmation sc 109
+
+10000/45/24/000003-001 download from policy schedule sc, 
+
+10000/45/24/000001-001 , 10000/45/24/000001-002
+ 10000/45/24/000016
+
+
+
+10000/45/24/000016-003 contractor name
+10000/45/24/000016-004 nature of scope
+10000/45/24/000016-005 CORRECTION IN LOCATION OF RISK
+10000/45/24/000016-006,007 deductibles ( Suggestion : Not change any description , only click 
+edit/update button but it creates endorsment )
+
+
+17294+11657
+
+
+agent == 1
+broker == 2 
+deductible == 8
+inception date == 7
+material damage == 9
+contractor name ==4
+location of risk == 6
+nature/scope of project 1 == 5
+priciple name 2== 3
+warrenties 3 == 10
+
+
+
+
+6530034094211567
+03/31
+
+==========15:30 14-10-2024
+1. Increased in sum insured
+
+Calculate premium not working.
+
+
+
+
+EXTENSION OF POLICY PERIOD
+INCREASE IN SUM INSURED ==1
+DECREASE IN SUM INSURED ==2
+INCLUSION OF EXTENSION COVER (WITH ADDITIONAL PREMIUM)==5
+CORRECT PREMIUM COMPUTATION – INCREASE (WITH ADDITIONAL PREMIUM) ==3
+CORRECT PREMIUM COMPUTATION – DECREASE (RETURN PREMIUM) ==4
+
+
+
+10000/44/24/000001 pol
+
+
+10000/44/24/N/0000024
+10000/44/24/N/0000026
+
+
+10000/44/24/000012
+10000/44/24/N/0000027
+
+
+
+em0044 or admin login for claim reg
+claim reg
+aquire claim
+adjuster 
+investigator > assesment > risk details > click amount > approved and click submit btn
+Emm0041 login
+again login claim processing click investigator and approve it.
+
+Em0044 cm officer acquire
+Em0041 cc officer 
+
+
+
+860
+
+pv car inward
+commer norm
+
+
+
+
+
+192.169.1.91
+
+services
+sql server 2017
+
+ntcp green energy.
+
+
+VGF
+
+RFQ/10000/31/24/0018343
+
+
+
+10000/31/24/P/0011947 master policy 
+
+
+
+
+pw days
+
+
+
+10000/31/24/011880
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3
+
+	

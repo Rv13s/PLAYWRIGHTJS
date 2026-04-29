@@ -1,0 +1,12 @@
+1.without closing the resume pop , we can able to touch the backgournd , and move to next screen , 
+the poppup continulsy showing
+2.while click the cancel button , exception show - our executive will reach out shortly.
+3.policy status not update in, about vehicel screen.
+4. Pac addon is not selected, but in owner details screen , nominee details asking.
+5.when nominee age below 18, appointee name age mandatory, without enter the appointee details ,
+it goes to next screen, also appointee age below 18 it acceps.
+// appointee age above 18 popup missing
+
+keerthana.pera23@gmail.com
+5g9@Novac!!
+B2pZF5mCEVTMjTaBDDrU
